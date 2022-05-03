@@ -47,30 +47,33 @@ La SDK requiere que dentro de las configuraciones **info.plis**, se encuentre un
         import  BecomeDigitalV
 
 
-**2. En el método **startSDKAction ()** de su **viewController** de aplicación, inicialice Become utilizando el siguiente fragmento de código:**
+**2. En el método **startSDKAction ()** de su **viewController** de aplicación, inicialice Become para la captura de imágenes, se debe asignar el **ItFirstTransaction** como True, puedes utilizar el siguiente fragmento de código:**
  
-            @IBAction func startSDKAction(_ sender: Any) {
-                        let dateFormatter = DateFormatter()
-                        dateFormatter.locale = Locale(identifier: "es_ES") // date user identification
-                        dateFormatter.dateFormat = "yyyyMMddHHmmssSSS"
-                        let userId = dateFormatter.string(from: Date()) // Se inicializa un único identificador
-                        let bdivConfig = BDIVConfig(clienId: "acc_demo", clientSecret: "FKLDM63GPH89TISBXNZ4YJUE57WRQA25", contractId: "2", validationTypes: "VIDEO/PASSPORT/DNI/LICENSE", userId: userId, allowLibraryLoading: true, customerLogo: "")
-                        BDIVCallBack.sharedInstance.delegate = self
-                        BDIVCallBack.sharedInstance.register(bdivConfig: bdivConfig)
-            }
+      @IBAction func startSDKAction(_ sender: Any) {
+               let dateFormatter = DateFormatter()
+               dateFormatter.locale = Locale(identifier: "es_ES") // date user identification
+               dateFormatter.dateFormat = "yyyyMMddHHmmssSSS"
+               userID = userId.text!.isEmpty ? dateFormatter.string(from: Date()) : userId.text!
+               let bdivConfig = BDIVConfig(token:"your_bearer_token",
+                                 contractId:  "your_contract_id",
+                                 userId: userID,
+                                 ItFirstTransaction: true)
+               BDIVCallBack.sharedInstance.register(bdivConfig: bdivConfig)
+       }
+                    
 
+**3. En el método **secondAction ()** de su **viewController** de aplicación, inicialice Become y proceda al el envío de la imagen del documento para su posterior validación, se debe asignar el **ItFirstTransaction** como False, Y el parámetro imagen debe estar cargado con la información de la imagen completa por el anverso del documento, puedes utilizar el siguiente fragmento de código:**
+ 
+     @IBAction func secondAction(_ sender: Any) {
+        lblResponse.text = "Enviando segunda petición..."
+        let bdivConfig = BDIVConfig(token: token.text!,
+                                    contractId: "your_contract_id",
+                                    userId: userID,
+                                    ItFirstTransaction: false,
+                                    imgData: (responseIV.fullFronImage?.pngData())!)
+        BDIVCallBack.sharedInstance.register(bdivConfig: bdivConfig)
+    }
 
-                    extension ViewController: BDIVDelegate{
-                        func BDIVResponseSuccess(bdivResult: AnyObject) {
-                            let idmResultFinal = bdivResult as! ResponseIV
-                            print(String(describing: idmResultFinal))
-
-                        }
-
-                        func BDIVResponseError(error: String) {
-                            print(error)
-                        }
-                    }
 
 ## Respuesta de la SDK 
 **1. Estructura encargada de la definición del estado de validación exitoso:**
@@ -91,55 +94,72 @@ La SDK dará respuesta mediante dos métodos o promesas de respuesta, que perten
 Los siguientes parámetros permiten el retorno de la información capturada por el sistema mediante la promesa de respuesta o evento **BDIVResponseSuccess**:
 
     func BDIVResponseSuccess(bdivResult: AnyObject) {       
-    		        let idmResultFinal = bdivResult as! ResponseIV        
-    		       print(String(describing: idmResultFinal))           
+    		   let responseIV = bdivResult as! ResponseIV        
+    		   if(responseIV.IsFirstTransaction){
+            btnSecont.isHidden = false
+            lblResponse.text = String(describing: responseIV)
+            self.imgFront.image = responseIV.frontImage
+            self.imgBack.image = responseIV.backImage
+            self.imgFullBack.image = responseIV.fullBackImage
+            self.imgFullFront.image = responseIV.fullFronImage
+        }else{
+            lblResponse.text = String(describing: responseIV.documentValidation)
+        }         
     }        
 
-## Estructura para el retorno de la información
+Si el parámetro **IsFirstTransaction**, es True, nos indica que es un retorna de la primera transacción, donde se obtiene la imágene que se debe enviar al segundo consumo.
+
+
+## Objeto para el retorno de la información
 Los siguientes parámetros permiten el retorno de la información capturada por el sistema:
 
-    id: Stringcreated_at: String 
-    company: String  
-    fullname: String 
-    birth: String  
-    document_type: String 
-    document_number: String 
-    face_match: Bool 
-    template: Bool 
-    alteration: Bool
-    watch_list: Bool 
-    comply_advantage_result: String 
-    comply_advantage_url: String 
-    verification_status: String 
-    device_model: String 
-    os_version: String 
-    browser_major: String 
-    browser_version: String 
-    ua: String device_type: String 
-    device_vendor: String 
-    os_name: String 
-    browser_name: String 
-    issuePlace: String 
-    emissionDate: String 
-    ageRange: String 
-    savingAccountsCount: String 
-    financialIndustryDebtsCount: String 
-    solidarityIndustryDebtsCount: String 
-    serviceIndustryDebtsCount: String
-    commercialIndustryDebtsCount: String 
-    ip: String 
-    frontImgUrl: String 
-    backImgUrl: String 
-    selfiImageUrl: String 
-    message: String 
-    responseStatus: typeEstatus 
-    
-     
-     typeEstatus {        
-    	case SUCCES        
-    	case ERROR        
-    	case PENDING    
+    public enum typeEstatus {
+        case SUCCES
+        case ERROR
+        case PENDING
+        case NOFOUND
     }
+    
+    public var firstName: String
+    
+    public var lastName: String
+    
+    public var dateOfExpiry: Date
+    
+    public var age: Int
+    
+    public var dateOfBirth: Date
+    
+    public var mrzText: String
+    
+    public var sex: String
+    
+    public var barcodeResult: String
+    
+    public var barcodeResultData: Data
+    
+    /// Returns a clipping of the document image
+    public var frontImage: UIImage?
+    
+    /// Returns a clipping of the document image
+    public var backImage: UIImage?
+    
+    /// Return full image of the document image
+    public var fullFronImage: UIImage?
+    
+    /// Return full image of the document image
+    public var fullBackImage: UIImage?
+    
+    public var message: String
+    
+    /// Returns the results of the document validation.
+    /// - returns: `liveness_score`, `quality_score`, `liveness_probability`
+    public var documentValidation: [String: Any]
+    
+    public var responseStatus: typeEstatus = .PENDING
+    
+    /// Defines if the response comes from the first transaction.
+    public var IsFirstTransaction: Bool
 
 ## Posibles Errores
 **1. Error con parámetros vacíos**
@@ -147,25 +167,15 @@ Los siguientes parámetros son necesarios para la activación de la SDK por lo t
 
 Parámetro | Valor
 ------------ | -------------
-validationTypes | ""
-clientSecret | ""
-clientID | ""
-contractID | ""
-userID  | ""
+clientID | String
+contractID | String
+userID  | String
+ItFirstTransaction  | Bool
+imgData  | Data()
 
 Mostrará el siguiente error por consola:
 
     parameters cannot be empty
-
-**2. Video cómo único parámetro**
-
-El atributo **validationTypes** no puede contener como único valor el parámetro **VIDEO**.
-
-    validationTypes: “VIDEO"
-
-Mostrará el siguiente error por consola:
-
-    the process cannot be initialized with video only
 
 ## Implementación del proceso
 
@@ -184,11 +194,12 @@ Esta sección se encarga de proporcionar el fragmento de código para la impleme
                       let dateFormatter = DateFormatter()
                       dateFormatter.locale = Locale(identifier: "es_ES") // date user identification
                       dateFormatter.dateFormat = "yyyyMMddHHmmssSSS"
-                      let userId = dateFormatter.string(from: Date()) // Se inicializa un único identificador
-                      let bdivConfig = BDIVConfig(clienId: "your_client_id", clientSecret: "your_client_secret", contractId: "your_contract_id", validationTypes:"VIDEO/PASSPORT/DNI/LICENSE", userId: , allowLibraryLoading: true, customerLogo: "")        BDIVCallBack.sharedInstance.delegate = self
+                      userID = userId.text!.isEmpty ? dateFormatter.string(from: Date()) : userId.text!
+                      let bdivConfig = BDIVConfig(token:"your_bearer_token",
+                                        contractId:  "your_contract_id",
+                                        userId: userID,
+                                        ItFirstTransaction: true)
                       BDIVCallBack.sharedInstance.register(bdivConfig: bdivConfig)
-
-
                   }
               }
 
