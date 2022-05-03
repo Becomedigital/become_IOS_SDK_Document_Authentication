@@ -95,7 +95,8 @@ Los siguientes parámetros permiten el retorno de la información capturada por 
 
     func BDIVResponseSuccess(bdivResult: AnyObject) {       
     		   let responseIV = bdivResult as! ResponseIV        
-    		   if(responseIV.IsFirstTransaction){
+    		   
+          if(responseIV.IsFirstTransaction){
             btnSecont.isHidden = false
             lblResponse.text = String(describing: responseIV)
             self.imgFront.image = responseIV.frontImage
