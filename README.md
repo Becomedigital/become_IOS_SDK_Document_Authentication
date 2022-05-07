@@ -168,7 +168,6 @@ Los siguientes parámetros son necesarios para la activación de la SDK por lo t
 
 Parámetro | Valor
 ------------ | -------------
-clientID | String
 contractID | String
 userID  | String
 ItFirstTransaction  | Bool
