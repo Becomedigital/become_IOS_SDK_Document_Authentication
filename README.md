@@ -170,8 +170,6 @@ Parámetro | Valor
 ------------ | -------------
 contractID | String
 userID  | String
-ItFirstTransaction  | Bool
-imgData  | Data()
 
 Mostrará el siguiente error por consola:
 
