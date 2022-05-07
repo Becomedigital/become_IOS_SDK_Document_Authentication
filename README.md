@@ -170,6 +170,7 @@ Parámetro | Valor
 ------------ | -------------
 contractID | String
 userID  | String
+ItFirstTransaction  | Bool
 
 Mostrará el siguiente error por consola:
 
