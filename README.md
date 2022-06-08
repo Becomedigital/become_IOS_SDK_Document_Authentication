@@ -57,7 +57,8 @@ La SDK requiere que dentro de las configuraciones **info.plis**, se encuentre un
                let bdivConfig = BDIVConfig(token:"your_bearer_token",
                                  contractId:  "your_contract_id",
                                  userId: userID,
-                                 ItFirstTransaction: true)
+                                 ItFirstTransaction: true,
+                                 customLocalizationFileName: "localize_test")
                BDIVCallBack.sharedInstance.register(bdivConfig: bdivConfig)
        }
                     
@@ -73,6 +74,26 @@ La SDK requiere que dentro de las configuraciones **info.plis**, se encuentre un
                                     imgData: (responseIV.fullFronImage?.pngData())!) // Image path, returned by the first event
         BDIVCallBack.sharedInstance.register(bdivConfig: bdivConfig)
     }
+    
+ 
+ ## Cambiar textos predeterminados en la SDK     
+
+Para cambiar algún texto predeterminado y asignar uno en reemplazo de este, cree un archivo .string ejemplo: `localize_test.strings` en su proyecto y agrege la eqtiqueta del texto a remplazar ejemplo: `"blinkid_generic_message" = "Su texto aca";`, luego agregue el atributo `customLocalizationFileName` con el nombre del archivo strings en el objeto `BDIVConfig`.
+
+Con `Localize_test.string.string` abierto, en el inspector de archivos toque el botón "Localizar..." y seleccione Inglés.
+
+    @IBAction func startSDKAction(_ sender: Any) {
+             let dateFormatter = DateFormatter()
+             dateFormatter.locale = Locale(identifier: "es_ES") // date user identification
+             dateFormatter.dateFormat = "yyyyMMddHHmmssSSS"
+             userID = userId.text!.isEmpty ? dateFormatter.string(from: Date()) : userId.text!
+             let bdivConfig = BDIVConfig(token:"your_bearer_token",
+                               contractId:  "your_contract_id",
+                               userId: userID,
+                               ItFirstTransaction: true,
+                               customLocalizationFileName: "localize_test")
+             BDIVCallBack.sharedInstance.register(bdivConfig: bdivConfig)
+     }
 
 
 ## Respuesta de la SDK 
