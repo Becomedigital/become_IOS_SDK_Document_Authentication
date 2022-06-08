@@ -70,7 +70,7 @@ La SDK requiere que dentro de las configuraciones **info.plis**, se encuentre un
                                     contractId: "your_contract_id",
                                     userId: userID,
                                     ItFirstTransaction: false,
-                                    imgData: (responseIV.fullFronImage?.pngData())!)
+                                    imgData: (responseIV.fullFronImage?.pngData())!) // Image path, returned by the first event
         BDIVCallBack.sharedInstance.register(bdivConfig: bdivConfig)
     }
 
@@ -168,11 +168,9 @@ Los siguientes parámetros son necesarios para la activación de la SDK por lo t
 
 Parámetro | Valor
 ------------ | -------------
-clientID | String
 contractID | String
 userID  | String
 ItFirstTransaction  | Bool
-imgData  | Data()
 
 Mostrará el siguiente error por consola:
 
