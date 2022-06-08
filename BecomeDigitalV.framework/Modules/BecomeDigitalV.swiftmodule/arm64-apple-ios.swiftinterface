@@ -58,12 +58,13 @@ public struct ResponseIV {
   public var IsFirstTransaction: Swift.Bool
 }
 public struct BDIVConfig {
-  public init(token: Swift.String, contractId: Swift.String, userId: Swift.String, ItFirstTransaction: Swift.Bool = true, imgData: Foundation.Data = Data())
+  public init(token: Swift.String, contractId: Swift.String, userId: Swift.String, ItFirstTransaction: Swift.Bool = true, imgData: Foundation.Data = Data(), customLocalizationFileName: Swift.String = "")
   public let IsFirstTransaction: Swift.Bool
   public var token: Swift.String
   public let contractId: Swift.String
   public let userId: Swift.String
   public let imgData: Foundation.Data
+  public let customLocalizationFileName: Swift.String
 }
 @_hasMissingDesignatedInitializers public class BDIVCallBack {
   public class var sharedInstance: BecomeDigitalV.BDIVCallBack {
