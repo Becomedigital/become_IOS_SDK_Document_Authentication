@@ -4,13 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		zPgZrMD+8t0I+twSLdL90rXCzn0=
-		</data>
 		<key>Assets.car</key>
 		<data>
-		c09yFR1Xqwl5egbhdDz61svIDvQ=
+		o6ylLi2L+CHk8AnzqUjxvixXKLs=
 		</data>
 		<key>Headers/BecomeDigitalV-Swift.h</key>
 		<data>
@@ -22,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		rEURIyUlzp/ZrtrYeUw81WSIOoo=
+		CRfQfWrHbRMXNzGXscAAysxKtqo=
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
@@ -30,19 +26,19 @@
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		BC+s2ImCs8nw/URd/aVm8vVtFRs=
+		qDwI3dX3L9k6689LCOctmk6aVws=
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		CV/1x5mL52yxfSOacF7Hd3DA0Q0=
+		Njrj0QNzteixnPG+UFsYPgJ5qgk=
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		TFvkHZvVI7bZU+bb6VtTbIi5xZ4=
+		2EDscVUjT+xrucDofUs73brOjPM=
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		k3GUEfX9MO8HclgwlNjEXngaX+0=
+		xwh3Ynjh6RxRTcQjinBHkIj3i8w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,10 +71,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>liveness.gif</key>
-		<data>
-		aE7OVTm5TDd8fvWlCGlOIb4Dhds=
-		</data>
 		<key>load_init.gif</key>
 		<data>
 		LUxeMy2yDem07iHAHkk5nU6Q2M4=
@@ -94,7 +86,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6j3jn9lr9E/lJj2VHcim0CUuUpxtpZda8yVBJWKI2mQ=
+			Js9OAi2dLS2L1U6+FsyZPOSaLkEFdnClHofHpmyhzqk=
 			</data>
 		</dict>
 		<key>Headers/BecomeDigitalV-Swift.h</key>
@@ -122,28 +114,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SzkCiw72RuhGz11Fh0kth7n5PAX/ymEnegXV520iLCA=
+			pht550ZgfCnU38gzOTtmX2INZSjtbs5fyB7y+AP7ziE=
 			</data>
 		</dict>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qP/LJq3ZVvhvR9v2hSBt8uZ5VoZdHWq4SbIPuq0oDq0=
+			hnjEO5eD1iZpdzW4fTa+s0KtB5gFIcwpGYXWzHiTMFw=
 			</data>
 		</dict>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xKbvsagM7yXnPa6kMcTrc890MfpDgqWS8oR05WDxQg4=
+			5mD+76/GMg6SFsM/lo5sPY4CFLE40JDPMu20952aG5U=
 			</data>
 		</dict>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nsHhIL9zcA90UKmphUnhKR+zBXsjYx9J2p+avywIAgo=
+			vWej5O8RJY6TDn6znxTf4yKfth6RVz9z03usk1pfvsQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -179,13 +171,6 @@
 			</data>
 			<key>optional</key>
 			<true/>
-		</dict>
-		<key>liveness.gif</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			esooSvURJaFkNOx17ugIwqLp/g8lf6zOwkhBlx0XdhI=
-			</data>
 		</dict>
 		<key>load_init.gif</key>
 		<dict>

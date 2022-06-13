@@ -1,15 +1,13 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name BecomeDigitalV
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name BecomeDigitalV
 import AVFoundation
 import Alamofire
 @_exported import BecomeDigitalV
 import Foundation
 import ImageIO
 import Microblink
-import Photos
 import Swift
-import SwiftUI
 import SystemConfiguration
 import UIKit
 import WebKit
@@ -27,7 +25,7 @@ extension UIKit.UIImage {
   @objc func BDIVResponseError(error: Swift.String)
 }
 public struct ResponseIV {
-  public init(firstName: Swift.String = "", lastName: Swift.String = "", dateOfExpiry: Foundation.Date = Date(), age: Swift.Int = 0, dateOfBirth: Foundation.Date = Date(), mrzText: Swift.String = "", sex: Swift.String = "", barcodeResult: Swift.String = "", barcodeResultData: Foundation.Data = Data(), frontImg: UIKit.UIImage = UIImage(), backImg: UIKit.UIImage = UIImage(), fullFrontImg: UIKit.UIImage = UIImage(), fullBackImg: UIKit.UIImage = UIImage(), message: Swift.String = "", documentValidation: [Swift.String : Any] = [:], responseStatus: BecomeDigitalV.ResponseIV.typeEstatus = .PENDING, ItFirstTransaction: Swift.Bool = true)
+  public init(firstName: Swift.String = "", lastName: Swift.String = "", documentNumber: Swift.String = "", dateOfExpiry: Foundation.Date = Date(), age: Swift.Int = 0, dateOfBirth: Foundation.Date = Date(), mrzText: Swift.String = "", sex: Swift.String = "", barcodeResult: Swift.String = "", barcodeResultData: Foundation.Data = Data(), isoAlpha2CountryCode: Swift.String = "", isoAlpha3CountryCode: Swift.String = "", isoNumericCountryCode: Swift.String = "", type: Microblink.MBType = .typeId, countryName: Swift.String = "", frontImage: UIKit.UIImage = UIImage(), backImage: UIKit.UIImage = UIImage(), fullFronImage: UIKit.UIImage = UIImage(), fullBackImage: UIKit.UIImage = UIImage(), message: Swift.String = "", documentValidation: [Swift.String : Any] = [:], responseStatus: BecomeDigitalV.ResponseIV.typeEstatus = .PENDING, ItFirstTransaction: Swift.Bool = true)
   public enum typeEstatus {
     case SUCCES
     case ERROR
@@ -41,6 +39,7 @@ public struct ResponseIV {
   }
   public var firstName: Swift.String
   public var lastName: Swift.String
+  public var documentNumber: Swift.String
   public var dateOfExpiry: Foundation.Date
   public var age: Swift.Int
   public var dateOfBirth: Foundation.Date
@@ -48,6 +47,11 @@ public struct ResponseIV {
   public var sex: Swift.String
   public var barcodeResult: Swift.String
   public var barcodeResultData: Foundation.Data
+  public var isoAlpha2CountryCode: Swift.String
+  public var isoAlpha3CountryCode: Swift.String
+  public var isoNumericCountryCode: Swift.String
+  public var type: Microblink.MBType
+  public var countryName: Swift.String
   public var frontImage: UIKit.UIImage?
   public var backImage: UIKit.UIImage?
   public var fullFronImage: UIKit.UIImage?
@@ -58,11 +62,12 @@ public struct ResponseIV {
   public var IsFirstTransaction: Swift.Bool
 }
 public struct BDIVConfig {
-  public init(token: Swift.String, contractId: Swift.String, userId: Swift.String, ItFirstTransaction: Swift.Bool = true, imgData: Foundation.Data = Data(), customLocalizationFileName: Swift.String = "")
+  public init(token: Swift.String, contractId: Swift.String, userId: Swift.String, documentNumber: Swift.String = "", ItFirstTransaction: Swift.Bool = true, imgData: Foundation.Data = Data(), customLocalizationFileName: Swift.String = "")
   public let IsFirstTransaction: Swift.Bool
   public var token: Swift.String
   public let contractId: Swift.String
   public let userId: Swift.String
+  public let documentNumber: Swift.String
   public let imgData: Foundation.Data
   public let customLocalizationFileName: Swift.String
 }
