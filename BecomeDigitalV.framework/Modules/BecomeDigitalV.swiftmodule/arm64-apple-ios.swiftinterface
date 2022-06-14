@@ -25,7 +25,7 @@ extension UIKit.UIImage {
   @objc func BDIVResponseError(error: Swift.String)
 }
 public struct ResponseIV {
-  public init(firstName: Swift.String = "", lastName: Swift.String = "", documentNumber: Swift.String = "", dateOfExpiry: Foundation.Date = Date(), age: Swift.Int = 0, dateOfBirth: Foundation.Date = Date(), mrzText: Swift.String = "", sex: Swift.String = "", barcodeResult: Swift.String = "", barcodeResultData: Foundation.Data = Data(), isoAlpha2CountryCode: Swift.String = "", isoAlpha3CountryCode: Swift.String = "", isoNumericCountryCode: Swift.String = "", type: Microblink.MBType = .typeId, countryName: Swift.String = "", frontImage: UIKit.UIImage = UIImage(), backImage: UIKit.UIImage = UIImage(), fullFronImage: UIKit.UIImage = UIImage(), fullBackImage: UIKit.UIImage = UIImage(), message: Swift.String = "", documentValidation: [Swift.String : Any] = [:], responseStatus: BecomeDigitalV.ResponseIV.typeEstatus = .PENDING, ItFirstTransaction: Swift.Bool = true)
+  public init(firstName: Swift.String = "", lastName: Swift.String = "", documentNumber: Swift.String = "", dateOfExpiry: Foundation.Date = Date(), age: Swift.Int = 0, dateOfBirth: Foundation.Date = Date(), mrzText: Swift.String = "", sex: Swift.String = "", barcodeResult: Swift.String = "", barcodeResultData: Foundation.Data = Data(), isoAlpha2CountryCode: Swift.String = "", isoAlpha3CountryCode: Swift.String = "", isoNumericCountryCode: Swift.String = "", type: Microblink.MBType = .typeId, countryName: Swift.String = "", frontImage: UIKit.UIImage = UIImage(), backImage: UIKit.UIImage = UIImage(), fullFronImage: UIKit.UIImage = UIImage(), fullBackImage: UIKit.UIImage = UIImage(), message: Swift.String = "", documentValidation: [Swift.String : Any] = [:], registryInformation: [Swift.String : Any] = [:], responseStatus: BecomeDigitalV.ResponseIV.typeEstatus = .PENDING, ItFirstTransaction: Swift.Bool = true)
   public enum typeEstatus {
     case SUCCES
     case ERROR
@@ -58,6 +58,7 @@ public struct ResponseIV {
   public var fullBackImage: UIKit.UIImage?
   public var message: Swift.String
   public var documentValidation: [Swift.String : Any]
+  public var registryInformation: [Swift.String : Any]
   public var responseStatus: BecomeDigitalV.ResponseIV.typeEstatus
   public var IsFirstTransaction: Swift.Bool
 }
