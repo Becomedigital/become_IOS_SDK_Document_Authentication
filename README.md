@@ -18,13 +18,13 @@ Se debe agregar la librería **Alamofire** al proyecto, click [aqui](https://git
   3. El [`Bundle Identifier`](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) del proyecto debe coincidir con la licencia asignada al cliente 
 
 ## Agregar Frameowrk al proyecto
-Se debe agregar el archivo **BecomeDigitalV.framework**  en  las configuraciones generales del proyecto en la sección **framework, libraries, and embedded content**:
+Se debe agregar el archivo `BecomeDigitalV.framework`  en  las configuraciones generales del proyecto en la sección **framework, libraries, and embedded content**:
 
 <p align="center">
   <img src="https://github.com/Becomedigital/become_IOS_SDK/blob/master/IMG_1.png">
 </p>
  
-Para el correcto funcionamiento de la SDK, se requiere el uso del framework o librería **Alamofire.framework**, el cual se debe adicionar en la sección **framework, libraries, and embedded content**:
+Para el correcto funcionamiento de la SDK, se requiere el uso del framework o librería `Alamofire.framework`, el cual se debe adicionar en la sección **framework, libraries, and embedded content**:
  
  <p align="center">
   <img src="https://github.com/Becomedigital/become_IOS_SDK/blob/master/IMG_2.png">
@@ -32,7 +32,7 @@ Para el correcto funcionamiento de la SDK, se requiere el uso del framework o li
 
 ## Configuraciones dentro de info.plist 
 
-La SDK requiere que dentro de las configuraciones **info.plis**, se encuentre una descripción de uso de la cámara:
+La SDK requiere que dentro de las configuraciones `info.plis`, se encuentre una descripción de uso de la cámara:
 
     Privacy - Camera Usage Description ( Esta aplicación hace uso de tu cámara)
     
@@ -47,7 +47,7 @@ La SDK requiere que dentro de las configuraciones **info.plis**, se encuentre un
         import  BecomeDigitalV
 
 
-**2. En el método **startSDKAction ()** de su **viewController** de aplicación, inicialice Become para la captura de imágenes, se debe asignar el **ItFirstTransaction** como True, puedes utilizar el siguiente fragmento de código:**
+**2. En el método `startSDKAction ()` de su `ViewController` de aplicación, inicialice Become para la captura de imágenes, se debe asignar el `ItFirstTransaction` como True, puedes utilizar el siguiente fragmento de código:**
  
       @IBAction func startSDKAction(_ sender: Any) {
                let dateFormatter = DateFormatter()
@@ -63,15 +63,16 @@ La SDK requiere que dentro de las configuraciones **info.plis**, se encuentre un
        }
                     
 
-**3. En el método **secondAction ()** de su **viewController** de aplicación, inicialice Become y proceda al el envío de la imagen del documento para su posterior validación, se debe asignar el **ItFirstTransaction** como False, Y el parámetro imagen debe estar cargado con la información de la imagen completa por el anverso del documento, puedes utilizar el siguiente fragmento de código:**
+**3. En el método `secondAction ()` de su `ViewController` de aplicación, inicialice Become y proceda al el envío de la imagen del documento para su posterior validación, se debe asignar el `ItFirstTransaction` como `False`, Y el parámetro `imgData` debe estar cargado con la información de la imagen completa por el anverso del documento, para obtener información de la registraduría nacional de Colombia, se requiere se adicione el parámetro `documentNumber`, el cual es retornado por el primer llamado a la SDK. Puedes utilizar el siguiente fragmento de código:**
  
      @IBAction func secondAction(_ sender: Any) {
         lblResponse.text = "Enviando segunda petición..."
         let bdivConfig = BDIVConfig(token: token.text!,
-                                    contractId: "your_contract_id",
+                                    contractId:  (contractId.text!.isEmpty ? "2" : contractId.text)!,
                                     userId: userID,
+                                    documentNumber: responseIV.documentNumber,
                                     ItFirstTransaction: false,
-                                    imgData: (responseIV.fullFronImage?.pngData())!) // Image path, returned by the first event
+                                    imgData: (responseIV.fullFronImage?.pngData())!)
         BDIVCallBack.sharedInstance.register(bdivConfig: bdivConfig)
     }
     
@@ -134,7 +135,7 @@ Con `Localize_test.string.string` abierto, en el inspector de archivos toque el 
 ## Respuesta de la SDK 
 **1. Estructura encargada de la definición del estado de validación exitoso:**
 
-La SDK dará respuesta mediante dos métodos o promesas de respuesta, que pertenecen al estructura  **BDIVDelegate**:
+La SDK dará respuesta mediante dos métodos o promesas de respuesta, que pertenecen al estructura  `BDIVDelegate`:
 
     	func BDIVResponseSuccess(bdivResult: AnyObject) {       
     		        let idmResultFinal = bdivResult as! ResponseIV        
@@ -147,7 +148,7 @@ La SDK dará respuesta mediante dos métodos o promesas de respuesta, que perten
 
 ## Estructura para el retorno de la información
 
-Los siguientes parámetros permiten el retorno de la información capturada por el sistema mediante la promesa de respuesta o evento **BDIVResponseSuccess**:
+Los siguientes parámetros permiten el retorno de la información capturada por el sistema mediante la promesa de respuesta o evento `BDIVResponseSuccess`:
 
     func BDIVResponseSuccess(bdivResult: AnyObject) {       
     		   let responseIV = bdivResult as! ResponseIV        
@@ -164,13 +165,13 @@ Los siguientes parámetros permiten el retorno de la información capturada por 
         }         
     }        
 
-Si el parámetro **IsFirstTransaction**, es True, nos indica que es un retorna de la primera transacción, donde se obtiene la imágene que se debe enviar al segundo consumo.
+Si el parámetro `IsFirstTransaction`, es True, nos indica que es un retorna de la primera transacción, donde se obtiene la imágene que se debe enviar al segundo consumo.
 
 
 ## Objeto para el retorno de la información
 Los siguientes parámetros permiten el retorno de la información capturada por el sistema:
 
-    public enum typeEstatus {
+      public enum typeEstatus {
         case SUCCES
         case ERROR
         case PENDING
@@ -178,43 +179,35 @@ Los siguientes parámetros permiten el retorno de la información capturada por 
     }
     
     public var firstName: String
-    
     public var lastName: String
-    
+    public var documentNumber: String
     public var dateOfExpiry: Date
-    
     public var age: Int
-    
     public var dateOfBirth: Date
-    
     public var mrzText: String
-    
     public var sex: String
-    
     public var barcodeResult: String
-    
     public var barcodeResultData: Data
-    
+    public var isoAlpha2CountryCode: String
+    public var isoAlpha3CountryCode: String
+    public var isoNumericCountryCode: String
+    public var type: MBType
+    public var countryName: String
     /// Returns a clipping of the document image
     public var frontImage: UIImage?
-    
     /// Returns a clipping of the document image
     public var backImage: UIImage?
-    
     /// Return full image of the document image
     public var fullFronImage: UIImage?
-    
     /// Return full image of the document image
     public var fullBackImage: UIImage?
-    
     public var message: String
-    
     /// Returns the results of the document validation.
     /// - returns: `liveness_score`, `quality_score`, `liveness_probability`
     public var documentValidation: [String: Any]
-    
+    /// Returns information from the database for the specific country
+    public var registryInformation: [String: Any]
     public var responseStatus: typeEstatus = .PENDING
-    
     /// Defines if the response comes from the first transaction.
     public var IsFirstTransaction: Bool
 
