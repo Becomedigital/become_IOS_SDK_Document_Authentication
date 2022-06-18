@@ -63,14 +63,16 @@ La SDK requiere que dentro de las configuraciones `info.plis`, se encuentre una 
        }
                     
 
-**3. En el método `secondAction ()` de su `ViewController` de aplicación, inicialice Become y proceda al el envío de la imagen del documento para su posterior validación, se debe asignar el `ItFirstTransaction` como `False`, Y el parámetro `imgData` debe estar cargado con la información de la imagen completa por el anverso del documento, para obtener información de la registraduría nacional de Colombia, se requiere se adicione el parámetro `documentNumber`, el cual es retornado por el primer llamado a la SDK. Puedes utilizar el siguiente fragmento de código:**
+**3. En el método `secondAction ()` de su `ViewController` de aplicación, inicialice Become y proceda al el envío de la imagen del documento para su posterior validación, se debe asignar el `ItFirstTransaction` como `False`, Y el parámetro `imgData` debe estar cargado con la información de la imagen completa por el anverso del documento. Puedes utilizar el siguiente fragmento de código:**
+
+Nota: para obtener información de la registraduría nacional de Colombia, se requiere se adicione el parámetro `documentNumber`, el cual es retornado por el primer llamado a la SDK. 
  
      @IBAction func secondAction(_ sender: Any) {
         lblResponse.text = "Enviando segunda petición..."
         let bdivConfig = BDIVConfig(token: token.text!,
                                     contractId:  (contractId.text!.isEmpty ? "2" : contractId.text)!,
                                     userId: userID,
-                                    documentNumber: responseIV.documentNumber,
+                                    documentNumber: responseIV.documentNumber, // adicionar este parámetro si es documento colombiano.
                                     ItFirstTransaction: false,
                                     imgData: (responseIV.fullFronImage?.pngData())!)
         BDIVCallBack.sharedInstance.register(bdivConfig: bdivConfig)
