@@ -12,7 +12,7 @@ Se debe agregar la librería **Alamofire** al proyecto, click [aqui](https://git
  2. Agregar dentro de el archivo de configuración `Info.plist`, la propiedad con nombre `com_become_key` con la cadena de la licencia.
 
  <p align="center">
-  <img src="https://github.com/Becomedigital/become_IOS_SDK/blob/master/IMG_4.png">
+  <img src="https://github.com/Becomedigital/become_IOS_SDK_Document_Authentication/blob/main/IMG_4.png">
  </p>
  
   3. El [`Bundle Identifier`](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) del proyecto debe coincidir con la licencia asignada al cliente 
