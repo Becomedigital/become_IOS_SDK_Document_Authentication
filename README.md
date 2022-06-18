@@ -9,7 +9,7 @@ Se debe agregar la librería **Alamofire** al proyecto, click [aqui](https://git
 
  1. Se debe agregar la librería **blinkid** al proyecto, click [aqui](https://github.com/BlinkID/blinkid-ios) para la documentación. 
 
- 2. agregar archivo de texto **com.become.key.txt** con licencia
+ 2. Agregar dentro de el archivo de configuración `Info.plist`, la propiedad con nombre `com_become_key` con la cadena de la licencia.
 
  <p align="center">
   <img src="https://github.com/Becomedigital/become_IOS_SDK/blob/master/IMG_4.png">
