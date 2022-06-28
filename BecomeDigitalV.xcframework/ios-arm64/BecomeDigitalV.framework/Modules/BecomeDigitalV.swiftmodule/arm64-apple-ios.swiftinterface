@@ -85,7 +85,6 @@ public struct BDIVConfig {
   @_Concurrency.MainActor(unsafe) public var bdivConfig: BecomeDigitalV.BDIVConfig?
   @_Concurrency.MainActor(unsafe) public var delegate: BecomeDigitalV.BDIVDelegate?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @objc deinit
 }
 extension BecomeDigitalV.MainViewController : Microblink.MBBlinkIdOverlayViewControllerDelegate {

@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/BecomeDigitalV-Swift.h</key>
 		<data>
-		tmysYw4IXDTG2p9U5WM8NjnZmgg=
+		mc/EaBf4f7dKTll7UWOuHXAgxY0=
 		</data>
 		<key>Headers/BecomeDigitalV.h</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		/CYZhnWe3bfjy3krlGTJfmczjIw=
+		WH3DN63HdS5I5vmDxLfVEJNfOdg=
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Ol6VbfwzFFbpzLJalU0XQbdOCyQ=
+		kOQ69HfJfcCo6xfBzheDaMiVW1c=
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ioYunJgp5Rvndoog2jttb0Bf2OA=
+		hufTtQREv6kO327Qt+IGa++dAkU=
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MaRJ9xG2Yd2rcoVwwPXic44xcwY=
+		C8x4d0VkmJBjjgNmqqhWvoUbqYI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -101,7 +101,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2R43mYqJ1abWGlDdjgwrNQw7Jm0X2FQvLzNXgUxUxN4=
+			WWFMW5riRcEm8AG1X/ampVYQCj+DkTuhuYeKiTOqz4I=
 			</data>
 		</dict>
 		<key>Headers/BecomeDigitalV.h</key>
@@ -129,14 +129,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sWMBO/nR4ABlEkFg4yYk79MYJU7GgNNroUXF7FPeRMo=
+			m+4itrCUqXTCAGK203HxG64NzyCu+IvZv9leemMb7I4=
 			</data>
 		</dict>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NDHdsH9HSjpICup2fxH20LRKnIfQrMyqSBED4F1ldIk=
+			7cs8gm6XXy+2hafgn4UECIvnkcLaqpTfaSisYQf4OeI=
 			</data>
 		</dict>
 		<key>Modules/BecomeDigitalV.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -150,14 +150,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AqLD4asanVpK7vr+pFVRCydbXfES/Lh5MsLbAbbemBE=
+			U4y0TWFVq2Hn9f0y/i0XnZ4E9TXSI9ziYCghLc2e0dM=
 			</data>
 		</dict>
 		<key>Modules/BecomeDigitalV.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9eE42FI1AhhqDGlIXJaWk4XCDgSGmGHBWCKv4LjIw74=
+			X3RjIoGjojGrDAjULAgaDq+y/9aiMVNhJe6HHHsvhKc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
