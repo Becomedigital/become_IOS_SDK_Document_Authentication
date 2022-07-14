@@ -70,7 +70,9 @@ Nota: para obtener información de la registraduría nacional de Colombia, se re
                                     userId: userID,
                                     documentNumber: responseIV.documentNumber, // adicionar este parámetro si es documento colombiano.
                                     ItFirstTransaction: false,
-                                    imgData: (responseIV.fullFronImage?.pngData())!)
+                                    imgDataFullFront: (responseIV.fullFronImage?.pngData())!,
+                                    imgDataCroppetBack: (responseIV.backImage?.pngData())!,
+                                    barcodeResultData: responseIV.barcodeResult)
         BDIVCallBack.sharedInstance.register(bdivConfig: bdivConfig)
     }
     
