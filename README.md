@@ -50,11 +50,13 @@ La SDK requiere que dentro de las configuraciones `info.plis`, se encuentre una 
                dateFormatter.locale = Locale(identifier: "es_ES") // date user identification
                dateFormatter.dateFormat = "yyyyMMddHHmmssSSS"
                userID = userId.text!.isEmpty ? dateFormatter.string(from: Date()) : userId.text!
-               let bdivConfig = BDIVConfig(token:"your_bearer_token",
-                                 contractId:  "your_contract_id",
-                                 userId: userID,
-                                 ItFirstTransaction: true,
-                                 customLocalizationFileName: "localize_test")
+               
+               let bdivConfig = BDIVConfig(ItFirstTransaction: true,
+                                              token:"your_bearer_token",
+                                              contractId:  "your_contract_id",
+                                              userId: userID,
+                                              customLocalizationFileName: "localize_test")
+                                              
                BDIVCallBack.sharedInstance.register(bdivConfig: bdivConfig)
        }
                     
@@ -65,7 +67,8 @@ Nota: para obtener información de la registraduría nacional de Colombia, se re
  
      @IBAction func secondAction(_ sender: Any) {
         lblResponse.text = "Enviando segunda petición..."
-        let bdivConfig = BDIVConfig(
+       
+       let bdivConfig = BDIVConfig(
               ItFirstTransaction: false,
               token: token.text!,
               contractId: (contractId.text!.isEmpty ? "2" : contractId.text)!,
@@ -76,6 +79,7 @@ Nota: para obtener información de la registraduría nacional de Colombia, se re
               imgDataFullFront: (responseIV.fullFronImage?.pngData())!,
               imgDataCroppetBack: (responseIV.backImage?.pngData())!,
               barcodeResultData: responseIV.barcodeResult)
+              
         BDIVCallBack.sharedInstance.register(bdivConfig: bdivConfig)
     }
     
