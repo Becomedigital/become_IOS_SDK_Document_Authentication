@@ -65,14 +65,17 @@ Nota: para obtener información de la registraduría nacional de Colombia, se re
  
      @IBAction func secondAction(_ sender: Any) {
         lblResponse.text = "Enviando segunda petición..."
-        let bdivConfig = BDIVConfig(token: token.text!,
-                                    contractId:  (contractId.text!.isEmpty ? "2" : contractId.text)!,
-                                    userId: userID,
-                                    documentNumber: responseIV.documentNumber, // adicionar este parámetro si es documento colombiano.
-                                    ItFirstTransaction: false,
-                                    imgDataFullFront: (responseIV.fullFronImage?.pngData())!,
-                                    imgDataCroppetBack: (responseIV.backImage?.pngData())!,
-                                    barcodeResultData: responseIV.barcodeResult)
+        let bdivConfig = BDIVConfig(
+              ItFirstTransaction: false,
+              token: token.text!,
+              contractId: (contractId.text!.isEmpty ? "2" : contractId.text)!,
+              userId: userID,
+              documentNumber: responseIV.documentNumber, // adicionar este parámetro si es documento colombiano.
+              isoAlpha2CountryCode: responseIV.isoAlpha2CountryCode,
+              type: responseIV.type.rawValue,
+              imgDataFullFront: (responseIV.fullFronImage?.pngData())!,
+              imgDataCroppetBack: (responseIV.backImage?.pngData())!,
+              barcodeResultData: responseIV.barcodeResult)
         BDIVCallBack.sharedInstance.register(bdivConfig: bdivConfig)
     }
     
@@ -178,12 +181,15 @@ Los siguientes parámetros permiten el retorno de la información capturada por 
         case NOFOUND
     }
     
+      
     public var firstName: String
     public var lastName: String
     public var documentNumber: String
+    public var dateOfIssue: Date
     public var dateOfExpiry: Date
     public var age: Int
     public var dateOfBirth: Date
+    public var placeOfBirth: String
     public var mrzText: String
     public var sex: String
     public var barcodeResult: String
