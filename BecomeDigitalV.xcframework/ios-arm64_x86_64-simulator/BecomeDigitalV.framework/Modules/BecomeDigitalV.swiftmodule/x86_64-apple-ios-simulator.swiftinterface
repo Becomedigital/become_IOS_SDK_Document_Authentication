@@ -25,7 +25,7 @@ extension UIKit.UIImage {
   @objc func BDIVResponseError(error: Swift.String)
 }
 public struct ResponseIV {
-  public init(firstName: Swift.String = "", lastName: Swift.String = "", documentNumber: Swift.String = "", dateOfExpiry: Foundation.Date = Date(), dateOfIssue: Foundation.Date = Date(), age: Swift.Int = 0, dateOfBirth: Foundation.Date = Date(), placeOfBirth: Swift.String = "", mrzText: Swift.String = "", sex: Swift.String = "", barcodeResult: Swift.String = "", barcodeResultData: Foundation.Data = Data(), isoAlpha2CountryCode: Swift.String = "", isoAlpha3CountryCode: Swift.String = "", isoNumericCountryCode: Swift.String = "", type: Microblink.MBType = .typeId, countryName: Swift.String = "", frontImage: UIKit.UIImage = UIImage(), backImage: UIKit.UIImage = UIImage(), fullFronImage: UIKit.UIImage = UIImage(), fullBackImage: UIKit.UIImage = UIImage(), message: Swift.String = "", documentValidation: [Swift.String : Any] = [:], registryInformation: [Swift.String : Any] = [:], responseStatus: BecomeDigitalV.ResponseIV.typeEstatus = .PENDING, ItFirstTransaction: Swift.Bool = true)
+  public init(firstName: Swift.String = "", lastName: Swift.String = "", documentNumber: Swift.String = "", dateOfExpiry: Foundation.Date = Date(), dateOfIssue: Foundation.Date = Date(), age: Swift.Int = 0, dateOfBirth: Foundation.Date = Date(), placeOfBirth: Swift.String = "", mrzText: Swift.String = "", sex: Swift.String = "", barcodeResult: Swift.String = "", barcodeResultData: Foundation.Data = Data(), isoAlpha2CountryCode: Swift.String = "", isoAlpha3CountryCode: Swift.String = "", isoNumericCountryCode: Swift.String = "", type: Microblink.MBType = .typeId, countryName: Swift.String = "", faceImage: UIKit.UIImage = UIImage(), frontImage: UIKit.UIImage = UIImage(), backImage: UIKit.UIImage = UIImage(), fullFronImage: UIKit.UIImage = UIImage(), fullBackImage: UIKit.UIImage = UIImage(), message: Swift.String = "", documentValidation: [Swift.String : Any] = [:], registryInformation: [Swift.String : Any] = [:], responseStatus: BecomeDigitalV.ResponseIV.typeEstatus = .PENDING, ItFirstTransaction: Swift.Bool = true)
   public enum typeEstatus {
     case SUCCES
     case ERROR
@@ -54,6 +54,7 @@ public struct ResponseIV {
   public var isoNumericCountryCode: Swift.String
   public var type: Microblink.MBType
   public var countryName: Swift.String
+  public var faceImage: UIKit.UIImage?
   public var frontImage: UIKit.UIImage?
   public var backImage: UIKit.UIImage?
   public var fullFronImage: UIKit.UIImage?
