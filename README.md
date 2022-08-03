@@ -185,7 +185,6 @@ Los siguientes parámetros permiten el retorno de la información capturada por 
         case NOFOUND
     }
     
-      
     public var firstName: String
     public var lastName: String
     public var documentNumber: String
