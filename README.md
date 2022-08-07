@@ -185,7 +185,6 @@ Los siguientes parámetros permiten el retorno de la información capturada por 
         case NOFOUND
     }
     
-      
     public var firstName: String
     public var lastName: String
     public var documentNumber: String
@@ -203,6 +202,8 @@ Los siguientes parámetros permiten el retorno de la información capturada por 
     public var isoNumericCountryCode: String
     public var type: MBType
     public var countryName: String
+    /// Returns a clipping of the photograph extracted from the document
+    public var faceImage: UIImage?
     /// Returns a clipping of the document image
     public var frontImage: UIImage?
     /// Returns a clipping of the document image
