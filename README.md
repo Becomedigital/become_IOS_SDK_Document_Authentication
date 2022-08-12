@@ -6,14 +6,10 @@ Proceso de instalación de la librería become_IOS_SDK.
 Se debe agregar la librería **Alamofire** al proyecto, click [aqui](https://github.com/Alamofire/Alamofire) para la documentación. 
 
 
-## Agregar Frameowrk al proyecto
-Se debe agregar el archivo `BecomeDigitalV.framework` y `Microblink.xcframework` en  las configuraciones generales del proyecto en la sección **framework, libraries, and embedded content**:
+## Agregar Frameworks al proyecto
+Se debe agregar la librería `BecomeDigitalV.framework` en las configuraciones generales del proyecto en la sección **framework, libraries, and embedded content**:
 
-<p align="center">
-  <img src="https://github.com/Becomedigital/become_IOS_SDK/blob/master/IMG_1.png">
-</p>
- 
-Para el correcto funcionamiento de la SDK, se requiere el uso del framework o librería `Alamofire.framework`, el cual se debe adicionar en la sección **framework, libraries, and embedded content**:
+Para el correcto funcionamiento de la SDK, se requiere el uso de los frameworks o librerías `Alamofire.framework` y `Microblink.xcframework`, los cuales se deben adicionar en la sección **framework, libraries, and embedded content**:
  
  <p align="center">
   <img src="https://github.com/Becomedigital/become_IOS_SDK/blob/master/IMG_2.png">
