@@ -182,6 +182,7 @@ Los siguientes parámetros permiten el retorno de la información capturada por 
     public var age: Int
     public var dateOfBirth: Date
     public var placeOfBirth: String
+    public var nationality: String
     public var mrzText: String
     public var sex: String
     public var barcodeResult: String
