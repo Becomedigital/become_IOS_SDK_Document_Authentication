@@ -26,7 +26,7 @@
 		</data>
 		<key>Frameworks/Microblink.framework/Microblink</key>
 		<data>
-		Pf3n1csy/lLlQX7ltIK5rA6Wsis=
+		NYNcrQM9OV/ToAziZk6K0aH6+U0=
 		</data>
 		<key>Frameworks/Microblink.framework/Model_2880751121560047e6dc571bc8ff4683aeb863886f7c0789234594ceb1e23577.strop</key>
 		<data>
@@ -770,11 +770,11 @@
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		x9OKtgOdeJf28qzi307Pn659Ds8=
+		msjdfHHm3fi49qnpNPVXPeMqAEQ=
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ZmLPaJzaVrreC7F4LqF01qjRt3M=
+		ZcBLU3L94GSr8fSrM0kLX4PKlVI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -857,7 +857,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			da5KW7kNrD8VRS6/jtcU4NFLCmkd/6/LgwWfMhmM5oM=
+			SvWg+S3X5KOt38KRROrQ4qHmRGsB2GnXX0Dq8w/0iBo=
 			</data>
 		</dict>
 		<key>Frameworks/Microblink.framework/Model_2880751121560047e6dc571bc8ff4683aeb863886f7c0789234594ceb1e23577.strop</key>
@@ -2152,14 +2152,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3E1js5ShA2e1QuDTA50sjM6GXW3R/Aj6mwUblC8KRZk=
+			OJLcABr1qYWlrEhGS7/R9XSpYrgRClMjflguOdxxV3Y=
 			</data>
 		</dict>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BiQXAv4xkk+5VrQcwWq5ENFOP4F+N2ZVtq/3iuXgWFg=
+			j7Z3QF7c+Hua5qxp8zV22vFkciT9NdskL07qiIoR+q8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
