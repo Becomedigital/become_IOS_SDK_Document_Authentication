@@ -22,7 +22,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		cdkaiYOwm8Gh1qZcDmgmri9A9y8=
+		qz0Xo86qXa+8Ywel+/n7y58N5Fk=
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		eAvjhdpKrEGva5XWowo+VyPT13s=
+		koUOi2Nm8nDkBiitNBxcC9xEpFc=
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		t0EufoPxUu0hEW6kFux9eUk/Yro=
+		f873kx+Qa6udt5nM1gziYeAPbF4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -115,7 +115,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yUpyW4kYGxO9zz7yHzPeJOCf22bP5zene0LLvXddwkE=
+			UoyE+HC2LqTFfFzRI99sjE0FP4rgco9RYaFVI4mC16I=
 			</data>
 		</dict>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -136,7 +136,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PvrAqWqw+vLO/n8eU+z4YnzqgRNSlHz8sEIG8oy/EBc=
+			lQFtJcP/3JVksQMtBBwgRYaYOPQndBfvb8dTJ7Q1nMU=
 			</data>
 		</dict>
 		<key>Modules/BecomeDigitalV.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -157,7 +157,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fo6CP2ctb5b43LdLmYBpMWZss9bii1LRaemzGeoyhDQ=
+			LMlGPrKsAHrYos+/KT+THx4vn99qnVIhR/ZZciCznBU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
