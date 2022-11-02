@@ -195,10 +195,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreData;
-@import CoreLocation;
+@import Microblink;
 @import UIKit;
-@import UserNotifications;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -224,43 +222,24 @@ SWIFT_PROTOCOL("_TtP14BecomeDigitalV12BDIVDelegate_")
 - (void)BDIVResponseErrorWithError:(NSString * _Nonnull)error;
 @end
 
-@class NSEntityDescription;
-@class NSManagedObjectContext;
-
-SWIFT_CLASS_NAMED("Countries")
-@interface Countries : NSManagedObject
-- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-@interface Countries (SWIFT_EXTENSION(BecomeDigitalV))
-@property (nonatomic) int16_t id;
-@property (nonatomic) int16_t type;
-@property (nonatomic, copy) NSString * _Nullable country_name;
-@property (nonatomic, copy) NSString * _Nullable co_3;
-@property (nonatomic, copy) NSString * _Nullable co_2;
-@property (nonatomic, copy) NSString * _Nullable airport_code;
-@end
-
-
 @class NSCoder;
 @class NSBundle;
 
+/// MainViewController
+/// Wrapper class for comment validation and general transactions.
 SWIFT_CLASS("_TtC14BecomeDigitalV18MainViewController")
 @interface MainViewController : UIViewController
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)viewDidLoad;
-- (void)viewDidAppear:(BOOL)animated;
-- (void)viewWillAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
+@class MBBlinkIdOverlayViewController;
 
-
-SWIFT_CLASS("_TtC14BecomeDigitalV11Permissions")
-@interface Permissions : UIResponder <CLLocationManagerDelegate, UIApplicationDelegate, UNUserNotificationCenterDelegate>
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@interface MainViewController (SWIFT_EXTENSION(BecomeDigitalV)) <MBBlinkIdOverlayViewControllerDelegate>
+- (void)blinkIdOverlayViewControllerDidFinishScanning:(MBBlinkIdOverlayViewController * _Nonnull)blinkIdOverlayViewController state:(MBRecognizerResultState)state;
+- (void)blinkIdOverlayViewControllerDidTapClose:(MBBlinkIdOverlayViewController * _Nonnull)blinkIdOverlayViewController;
 @end
 
 
