@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
  * Base class for all detectors  that are used for MBQuadrangle
  * detection and can also provide physical size of the detected document.
  */
-MB_CLASS_AVAILABLE_IOS(8.0)
+MB_CLASS_AVAILABLE_IOS(11.0)
 @interface MBQuadWithSizeDetectorResult : MBQuadDetectorResult <NSCopying>
 
 MB_INIT_UNAVAILABLE

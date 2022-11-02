@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * MBEmailParser is used for parsing emails
  */
-MB_CLASS_AVAILABLE_IOS(8.0)
+MB_CLASS_AVAILABLE_IOS(11.0)
 @interface MBEmailParserResult : MBParserResult <NSCopying>
 
 MB_INIT_UNAVAILABLE

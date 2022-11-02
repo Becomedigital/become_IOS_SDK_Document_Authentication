@@ -21,7 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
 * Recognizer which can scan front side of Romania ID.
 */
-MB_CLASS_AVAILABLE_IOS(8.0) MB_CLASS_DEPRECATED("Use MBBlinkIdRecognizer or MBBlinkIdCombinedRecognizer.") MB_FINAL
+MB_CLASS_AVAILABLE_IOS(11.0) MB_CLASS_DEPRECATED("Use MBBlinkIdRecognizer or MBBlinkIdCombinedRecognizer.") MB_FINAL
 @interface MBRomaniaIdFrontRecognizer : MBRecognizer<NSCopying, MBGlareDetection, MBFaceImage, MBEncodeFaceImage, MBFaceImageDpi, MBFullDocumentImage, MBEncodeFullDocumentImage, MBFullDocumentImageDpi, MBFullDocumentImageExtensionFactors>
 
 MB_INIT

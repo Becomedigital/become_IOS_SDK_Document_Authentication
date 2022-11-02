@@ -35,7 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * MBTopUpParser is used for parsing Top Up numbers
  */
-MB_CLASS_AVAILABLE_IOS(8.0) MB_FINAL
+MB_CLASS_AVAILABLE_IOS(11.0) MB_FINAL
 @interface MBTopUpParser : MBParser <NSCopying>
 
 MB_INIT

@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * Base class for all detectors that are used for MBQuadrangle detection.
  */
-MB_CLASS_AVAILABLE_IOS(8.0)
+MB_CLASS_AVAILABLE_IOS(11.0)
 @interface MBQuadDetector : MBDetector
 
 MB_INIT_UNAVAILABLE

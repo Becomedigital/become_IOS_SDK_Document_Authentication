@@ -28,7 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * Austrian Passport recognizer is used for scanning Austrian Passport.
  */
-MB_CLASS_AVAILABLE_IOS(8.0)
+MB_CLASS_AVAILABLE_IOS(11.0)
 @interface MBAustriaPassportRecognizer : MBRecognizer <NSCopying, MBFullDocumentImage, MBEncodeFullDocumentImage, MBFullDocumentImageDpi, MBSignatureImage, MBEncodeSignatureImage, MBSignatureImageDpi, MBFaceImage, MBEncodeFaceImage, MBFaceImageDpi, MBGlareDetection, MBFullDocumentImageExtensionFactors>
 
 MB_INIT

@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
  * Overlay subview presenting the status of detection.
  * The subview is presented as green corners located on edges of detection points.
  */
-MB_CLASS_AVAILABLE_IOS(8.0)
+MB_CLASS_AVAILABLE_IOS(11.0)
 @interface MBModernViewfinderSubview : MBSubview <MBQuadDetectorSubview>
 
 /**

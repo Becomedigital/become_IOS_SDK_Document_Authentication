@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * A recognizer for BlinkInput API and general OCR recognition
  */
-MB_CLASS_AVAILABLE_IOS(8.0) MB_FINAL
+MB_CLASS_AVAILABLE_IOS(11.0) MB_FINAL
 @interface MBBlinkInputRecognizer : MBRecognizer<NSCopying>
 
 - (instancetype)initWithProcessors:(NSArray<MBProcessor *> *)processors NS_DESIGNATED_INITIALIZER;

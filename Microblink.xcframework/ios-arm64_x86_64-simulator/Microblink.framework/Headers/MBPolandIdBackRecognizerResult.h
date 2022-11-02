@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
 * Recognizer which can scan back side of Poland ID cards.
 */
-MB_CLASS_AVAILABLE_IOS(8.0)
+MB_CLASS_AVAILABLE_IOS(11.0)
 @interface MBPolandIdBackRecognizerResult : MBRecognizerResult<NSCopying, MBFullDocumentImageResult, MBEncodedFullDocumentImageResult>
 
 MB_INIT_UNAVAILABLE

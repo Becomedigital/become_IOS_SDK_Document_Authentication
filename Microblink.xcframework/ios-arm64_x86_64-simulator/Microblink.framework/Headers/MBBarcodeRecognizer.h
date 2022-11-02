@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * MBBarcodeRecognizer is used for scanning most of 1D barcode formats, and 2D format
  */
-MB_CLASS_AVAILABLE_IOS(8.0) MB_FINAL
+MB_CLASS_AVAILABLE_IOS(11.0) MB_FINAL
 @interface MBBarcodeRecognizer : MBRecognizer<NSCopying>
 
 MB_INIT

@@ -26,7 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * Singapore ID Combined recognizer is used for scanning both front and back side of Singapore ID.
  */
-MB_CLASS_AVAILABLE_IOS(8.0) MB_CLASS_DEPRECATED("Use MBBlinkIdCombinedRecognizer.") MB_FINAL
+MB_CLASS_AVAILABLE_IOS(11.0) MB_CLASS_DEPRECATED("Use MBBlinkIdCombinedRecognizer.") MB_FINAL
 @interface MBSingaporeCombinedRecognizer : MBRecognizer <NSCopying, MBCombinedRecognizer, MBFullDocumentImage, MBEncodeFullDocumentImage, MBFullDocumentImageDpi, MBFaceImage, MBEncodeFaceImage, MBFaceImageDpi, MBGlareDetection, MBFullDocumentImageExtensionFactors>
 
 MB_INIT

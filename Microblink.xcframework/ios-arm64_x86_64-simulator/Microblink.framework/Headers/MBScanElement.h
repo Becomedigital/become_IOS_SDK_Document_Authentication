@@ -22,7 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
  *  - information whether the element was scanned or edited
  *  - actual value of the element, used in business logic after the scannig
  */
-MB_CLASS_AVAILABLE_IOS(8.0)
+MB_CLASS_AVAILABLE_IOS(11.0)
 @interface MBScanElement : NSObject
 
 /**

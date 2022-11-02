@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * MBAmountParser is used for extracting amount from OCR result
  */
-MB_CLASS_AVAILABLE_IOS(8.0)
+MB_CLASS_AVAILABLE_IOS(11.0)
 @interface MBAmountParserResult : MBParserResult <NSCopying>
 
 MB_INIT_UNAVAILABLE

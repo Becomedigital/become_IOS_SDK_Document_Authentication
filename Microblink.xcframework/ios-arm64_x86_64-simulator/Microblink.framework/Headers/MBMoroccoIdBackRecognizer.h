@@ -21,7 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * Morocco ID Back recognizer is used for scanning Back side of the Morocco ID.
  */
-MB_CLASS_AVAILABLE_IOS(8.0) MB_CLASS_DEPRECATED("Use MBBlinkIdCombinedRecognizer.") MB_FINAL
+MB_CLASS_AVAILABLE_IOS(11.0) MB_CLASS_DEPRECATED("Use MBBlinkIdCombinedRecognizer.") MB_FINAL
 @interface MBMoroccoIdBackRecognizer : MBRecognizer <NSCopying, MBFullDocumentImage, MBEncodeFullDocumentImage, MBFullDocumentImageDpi, MBGlareDetection, MBFullDocumentImageExtensionFactors>
 
 MB_INIT

@@ -21,7 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * Recognizer used for scanning credit/debit cards.
  */
-MB_CLASS_AVAILABLE_IOS(9.0) MB_FINAL
+MB_CLASS_AVAILABLE_IOS(11.0) MB_FINAL
 @interface MBBlinkCardRecognizer : MBRecognizer <NSCopying, MBCombinedRecognizer, MBFullDocumentImage, MBEncodeFullDocumentImage, MBFullDocumentImageDpi, MBFullDocumentImageExtensionFactors>
 
 MB_INIT

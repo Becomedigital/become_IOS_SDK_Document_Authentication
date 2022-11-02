@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * A recognizer result for BlinkInput API and general OCR recognition
  */
-MB_CLASS_AVAILABLE_IOS(8.0)
+MB_CLASS_AVAILABLE_IOS(11.0)
 
 @interface MBBlinkInputRecognizerResult : MBRecognizerResult <NSCopying>
 

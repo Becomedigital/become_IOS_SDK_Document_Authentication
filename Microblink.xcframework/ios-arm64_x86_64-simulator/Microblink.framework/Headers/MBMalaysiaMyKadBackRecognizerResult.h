@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * Class representing values obtained when scanning back side of MyKad
  */
-MB_CLASS_AVAILABLE_IOS(8.0)
+MB_CLASS_AVAILABLE_IOS(11.0)
 @interface MBMalaysiaMyKadBackRecognizerResult : MBRecognizerResult<NSCopying, MBFullDocumentImageResult>
 
 MB_INIT_UNAVAILABLE

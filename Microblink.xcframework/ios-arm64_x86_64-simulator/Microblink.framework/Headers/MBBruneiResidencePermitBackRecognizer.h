@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
 * Recognizer which can scan back side of Brunei national Residence Permit cards.
 */
-MB_CLASS_AVAILABLE_IOS(8.0) MB_FINAL
+MB_CLASS_AVAILABLE_IOS(11.0) MB_FINAL
 @interface MBBruneiResidencePermitBackRecognizer : MBRecognizer<NSCopying, MBGlareDetection, MBFullDocumentImage, MBEncodeFullDocumentImage, MBFullDocumentImageDpi, MBFullDocumentImageExtensionFactors>
 
 MB_INIT

@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * Recognizer that can perform recognition of VINs (Vehicle Identification Number).
  */
-MB_CLASS_AVAILABLE_IOS(8.0)
+MB_CLASS_AVAILABLE_IOS(11.0)
 @interface MBVinRecognizerResult : MBRecognizerResult<NSCopying>
 
 MB_INIT_UNAVAILABLE

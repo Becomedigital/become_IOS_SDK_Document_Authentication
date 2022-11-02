@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
  * MBRawParser that simply returns the string version of raw OCR result, without performing
  * any smart parsing operations.
  */
-MB_CLASS_AVAILABLE_IOS(8.0) MB_FINAL
+MB_CLASS_AVAILABLE_IOS(11.0) MB_FINAL
 @interface MBRawParser : MBParser <NSCopying>
 
 MB_INIT

@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * MBVinParser is used for parsing VIN numbers
  */
-MB_CLASS_AVAILABLE_IOS(8.0)
+MB_CLASS_AVAILABLE_IOS(11.0)
 @interface MBVinParserResult : MBParserResult <NSCopying>
 
 MB_INIT_UNAVAILABLE

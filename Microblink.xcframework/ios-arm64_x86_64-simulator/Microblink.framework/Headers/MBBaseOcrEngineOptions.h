@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
  * Options used for OCR process. These options enable you to customize how some OCR parsers work.
  * For example, you can set character whitelists, character height, supported fonts etc.
  */
-MB_CLASS_AVAILABLE_IOS(8.0)
+MB_CLASS_AVAILABLE_IOS(11.0)
 @interface MBBaseOcrEngineOptions : NSObject
 
 /**

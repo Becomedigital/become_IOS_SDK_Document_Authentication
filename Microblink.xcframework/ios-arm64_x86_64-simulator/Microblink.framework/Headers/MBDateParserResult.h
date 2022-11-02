@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * MBDateParser that can extract date from OCR result.
  */
-MB_CLASS_AVAILABLE_IOS(8.0)
+MB_CLASS_AVAILABLE_IOS(11.0)
 @interface MBDateParserResult : MBParserResult <NSCopying>
 
 MB_INIT_UNAVAILABLE

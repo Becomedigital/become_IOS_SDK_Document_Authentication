@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
  * Overlay subview presenting the status of detection.
  * The subview is presented as rectangle view over document
  */
-MB_CLASS_AVAILABLE_IOS(8.0)
+MB_CLASS_AVAILABLE_IOS(11.0)
 @interface MBDocumentCaptureSubview : MBSubview <MBQuadDetectorSubview>
 
 /**

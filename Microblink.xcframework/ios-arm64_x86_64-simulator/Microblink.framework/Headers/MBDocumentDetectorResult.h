@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * Detector that can perform detection of card documents, cheques, papers, etc.
  */
-MB_CLASS_AVAILABLE_IOS(8.0)
+MB_CLASS_AVAILABLE_IOS(11.0)
 @interface MBDocumentDetectorResult : MBQuadWithSizeDetectorResult <NSCopying>
 
 MB_INIT_UNAVAILABLE

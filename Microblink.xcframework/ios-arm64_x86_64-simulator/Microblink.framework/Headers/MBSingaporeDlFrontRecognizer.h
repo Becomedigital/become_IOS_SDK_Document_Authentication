@@ -24,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * Singapore Dl Front recognizer is used for scanning front side of the Singapore Driver's license..
  */
-MB_CLASS_AVAILABLE_IOS(8.0) MB_CLASS_DEPRECATED("Use MBBlinkIdRecognizer or MBBlinkIdCombinedRecognizer.") MB_FINAL
+MB_CLASS_AVAILABLE_IOS(11.0) MB_CLASS_DEPRECATED("Use MBBlinkIdRecognizer or MBBlinkIdCombinedRecognizer.") MB_FINAL
 @interface MBSingaporeDlFrontRecognizer : MBRecognizer <NSCopying, MBFaceImage, MBEncodeFaceImage, MBFaceImageDpi, MBFullDocumentImage, MBEncodeFullDocumentImage, MBFullDocumentImageDpi, MBGlareDetection, MBFullDocumentImageExtensionFactors>
 
 MB_INIT

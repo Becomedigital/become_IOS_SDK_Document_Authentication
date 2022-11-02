@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * MBLicensePlatesParser is used for parsing license plates
  */
-MB_CLASS_AVAILABLE_IOS(8.0)
+MB_CLASS_AVAILABLE_IOS(11.0)
 @interface MBLicensePlatesParserResult : MBParserResult <NSCopying>
 
 MB_INIT_UNAVAILABLE

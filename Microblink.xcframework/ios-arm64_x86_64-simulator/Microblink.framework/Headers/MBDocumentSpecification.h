@@ -92,7 +92,7 @@ typedef NS_ENUM(NSInteger, MBDocumentSpecificationPreset) {
  * Document class describes a document which is being detected by DocumentDetector.
  * We encurage users to create specifications with one of our presets, if possible.
  */
-MB_CLASS_AVAILABLE_IOS(8.0) MB_FINAL
+MB_CLASS_AVAILABLE_IOS(11.0) MB_FINAL
 @interface MBDocumentSpecification : NSObject <NSCopying>
 
 /**

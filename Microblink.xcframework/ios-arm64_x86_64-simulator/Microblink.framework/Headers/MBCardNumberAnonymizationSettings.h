@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * Holds the settings which control card number anonymization.
  */
-MB_CLASS_AVAILABLE_IOS(9.0) MB_FINAL
+MB_CLASS_AVAILABLE_IOS(11.0) MB_FINAL
 @interface MBCardNumberAnonymizationSettings : NSObject<NSCopying>
 
 MB_INIT

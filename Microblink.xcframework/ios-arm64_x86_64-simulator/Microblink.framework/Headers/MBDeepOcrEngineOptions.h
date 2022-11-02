@@ -26,7 +26,7 @@ typedef NS_ENUM(NSInteger, MBDeepOcrModel) {
  * Options used for OCR process. These options enable you to customize how some OCR parsers work.
  * For example, you can set nms threshold, score threshold, the ID of the requested Deep OCR model etc.
  */
-MB_CLASS_AVAILABLE_IOS(8.0)
+MB_CLASS_AVAILABLE_IOS(11.0)
 @interface MBDeepOcrEngineOptions : MBBaseOcrEngineOptions <NSCopying>
 
 /**

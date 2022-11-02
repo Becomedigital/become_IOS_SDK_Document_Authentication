@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * Detector that can perform detection of Machine Readable Travel Documents (MRTD).
  */
-MB_CLASS_AVAILABLE_IOS(8.0) MB_FINAL
+MB_CLASS_AVAILABLE_IOS(11.0) MB_FINAL
 @interface MBMrtdDetector : MBQuadWithSizeDetector <NSCopying>
 
 MB_INIT

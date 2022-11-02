@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
 * Recognizer which can scan front side of Brunei Military ID card.
 */
-MB_CLASS_AVAILABLE_IOS(8.0)
+MB_CLASS_AVAILABLE_IOS(11.0)
 @interface MBBruneiMilitaryIdFrontRecognizerResult : MBRecognizerResult<NSCopying, MBFaceImageResult, MBEncodedFaceImageResult, MBFullDocumentImageResult, MBEncodedFullDocumentImageResult>
 
 MB_INIT_UNAVAILABLE

@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
 * Recognizer which can scan front side of Brunei Temporary Residence Permit.
 */
-MB_CLASS_AVAILABLE_IOS(8.0)
+MB_CLASS_AVAILABLE_IOS(11.0)
 @interface MBBruneiTemporaryResidencePermitFrontRecognizerResult : MBRecognizerResult<NSCopying, MBFaceImageResult, MBEncodedFaceImageResult, MBFullDocumentImageResult, MBEncodedFullDocumentImageResult>
 
 MB_INIT_UNAVAILABLE

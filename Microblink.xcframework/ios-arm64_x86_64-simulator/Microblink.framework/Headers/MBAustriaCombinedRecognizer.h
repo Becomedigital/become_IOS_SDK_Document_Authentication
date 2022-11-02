@@ -35,7 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * Austrian ID Combined recognizer is used for scanning both front and back side of Austrian ID.
  */
-MB_CLASS_AVAILABLE_IOS(8.0) MB_CLASS_DEPRECATED("Use MBBlinkIdCombinedRecognizer.") MB_FINAL
+MB_CLASS_AVAILABLE_IOS(11.0) MB_CLASS_DEPRECATED("Use MBBlinkIdCombinedRecognizer.") MB_FINAL
 @interface MBAustriaCombinedRecognizer : MBRecognizer<NSCopying, MBCombinedRecognizer, MBGlareDetection, MBFullDocumentImage, MBFullDocumentImageDpi, MBSignatureImage, MBSignatureImageDpi, MBFaceImage, MBFaceImageDpi, MBEncodeFaceImage, MBEncodeFullDocumentImage, MBEncodeSignatureImage, MBFullDocumentImageExtensionFactors>
 
 MB_INIT
