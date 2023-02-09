@@ -6,6 +6,6 @@ framework module BecomeDigitalV {
 }
 
 module BecomeDigitalV.Swift {
-    header "BecomeDigitalV-Swift.h"
-    requires objc
+  header "BecomeDigitalV-Swift.h"
+  requires objc
 }

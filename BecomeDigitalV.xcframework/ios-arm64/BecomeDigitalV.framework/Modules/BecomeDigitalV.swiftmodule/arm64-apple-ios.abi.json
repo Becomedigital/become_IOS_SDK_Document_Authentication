@@ -1,0 +1,5362 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BecomeDigitalV",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ImageIO",
+        "printedName": "ImageIO",
+        "declKind": "Import",
+        "moduleName": "BecomeDigitalV"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BecomeDigitalV",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BDIVDelegate",
+        "printedName": "BDIVDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "BDIVResponseSuccess",
+            "printedName": "BDIVResponseSuccess(bdivResult:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BecomeDigitalV@objc(pl)BDIVDelegate(im)BDIVResponseSuccessWithBdivResult:",
+            "mangledName": "$s14BecomeDigitalV12BDIVDelegateP19BDIVResponseSuccess10bdivResultyyXl_tF",
+            "moduleName": "BecomeDigitalV",
+            "genericSig": "<τ_0_0 where τ_0_0 : BecomeDigitalV.BDIVDelegate>",
+            "sugared_genericSig": "<Self where Self : BecomeDigitalV.BDIVDelegate>",
+            "protocolReq": true,
+            "objc_name": "BDIVResponseSuccessWithBdivResult:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "BDIVResponseError",
+            "printedName": "BDIVResponseError(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BecomeDigitalV@objc(pl)BDIVDelegate(im)BDIVResponseErrorWithError:",
+            "mangledName": "$s14BecomeDigitalV12BDIVDelegateP17BDIVResponseError5errorySS_tF",
+            "moduleName": "BecomeDigitalV",
+            "genericSig": "<τ_0_0 where τ_0_0 : BecomeDigitalV.BDIVDelegate>",
+            "sugared_genericSig": "<Self where Self : BecomeDigitalV.BDIVDelegate>",
+            "protocolReq": true,
+            "objc_name": "BDIVResponseErrorWithError:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@BecomeDigitalV@objc(pl)BDIVDelegate",
+        "mangledName": "$s14BecomeDigitalV12BDIVDelegateP",
+        "moduleName": "BecomeDigitalV",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BecomeDigitalV",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BecomeDigitalV",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Microblink",
+        "printedName": "Microblink",
+        "declKind": "Import",
+        "moduleName": "BecomeDigitalV"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ResponseIV",
+        "printedName": "ResponseIV",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(firstName:lastName:documentNumber:personalIdNumber:dateOfExpiry:dateOfIssue:age:dateOfBirth:placeOfBirth:nationality:mrzText:sex:barcodeResult:barcodeResultData:isoAlpha2CountryCode:isoAlpha3CountryCode:isoNumericCountryCode:type:countryName:faceImage:frontImage:backImage:fullFronImage:fullBackImage:message:documentValidation:registryInformation:responseStatus:ItFirstTransaction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ResponseIV",
+                "printedName": "BecomeDigitalV.ResponseIV",
+                "usr": "s:14BecomeDigitalV10ResponseIVV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "hasDefaultArg": true,
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "hasDefaultArg": true,
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "hasDefaultArg": true,
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "hasDefaultArg": true,
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MBType",
+                "printedName": "Microblink.MBType",
+                "hasDefaultArg": true,
+                "usr": "c:@E@MBType"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "typeEstatus",
+                "printedName": "BecomeDigitalV.ResponseIV.typeEstatus",
+                "hasDefaultArg": true,
+                "usr": "s:14BecomeDigitalV10ResponseIVV11typeEstatusO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14BecomeDigitalV10ResponseIVV9firstName04lastF014documentNumber010personalIdI012dateOfExpiry0lM5Issue3age0lM5Birth05placemQ011nationality7mrzText3sex13barcodeResult0wX4Data20isoAlpha2CountryCode0Z17Alpha3CountryCode0Z18NumericCountryCode4type07countryF09faceImage10frontImage9backImage13fullFronImage13fullBackImage7message0H10Validation19registryInformation14responseStatus18ItFirstTransactionACSS_S3S10Foundation4DateVA7_SiA7_S5SA5_0Y0VS3SSo6MBTypeVSSSo7UIImageCA13_A13_A13_A13_SSSDySSypGA14_AC11typeEstatusOSbtcfc",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV9firstName04lastF014documentNumber010personalIdI012dateOfExpiry0lM5Issue3age0lM5Birth05placemQ011nationality7mrzText3sex13barcodeResult0wX4Data20isoAlpha2CountryCode0Z17Alpha3CountryCode0Z18NumericCountryCode4type07countryF09faceImage10frontImage9backImage13fullFronImage13fullBackImage7message0H10Validation19registryInformation14responseStatus18ItFirstTransactionACSS_S3S10Foundation4DateVA7_SiA7_S5SA5_0Y0VS3SSo6MBTypeVSSSo7UIImageCA13_A13_A13_A13_SSSDySSypGA14_AC11typeEstatusOSbtcfc",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "typeEstatus",
+            "printedName": "typeEstatus",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "SUCCES",
+                "printedName": "SUCCES",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BecomeDigitalV.ResponseIV.typeEstatus.Type) -> BecomeDigitalV.ResponseIV.typeEstatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "typeEstatus",
+                        "printedName": "BecomeDigitalV.ResponseIV.typeEstatus",
+                        "usr": "s:14BecomeDigitalV10ResponseIVV11typeEstatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BecomeDigitalV.ResponseIV.typeEstatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "typeEstatus",
+                            "printedName": "BecomeDigitalV.ResponseIV.typeEstatus",
+                            "usr": "s:14BecomeDigitalV10ResponseIVV11typeEstatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14BecomeDigitalV10ResponseIVV11typeEstatusO6SUCCESyA2EmF",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV11typeEstatusO6SUCCESyA2EmF",
+                "moduleName": "BecomeDigitalV"
+              },
+              {
+                "kind": "Var",
+                "name": "ERROR",
+                "printedName": "ERROR",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BecomeDigitalV.ResponseIV.typeEstatus.Type) -> BecomeDigitalV.ResponseIV.typeEstatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "typeEstatus",
+                        "printedName": "BecomeDigitalV.ResponseIV.typeEstatus",
+                        "usr": "s:14BecomeDigitalV10ResponseIVV11typeEstatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BecomeDigitalV.ResponseIV.typeEstatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "typeEstatus",
+                            "printedName": "BecomeDigitalV.ResponseIV.typeEstatus",
+                            "usr": "s:14BecomeDigitalV10ResponseIVV11typeEstatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14BecomeDigitalV10ResponseIVV11typeEstatusO5ERRORyA2EmF",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV11typeEstatusO5ERRORyA2EmF",
+                "moduleName": "BecomeDigitalV"
+              },
+              {
+                "kind": "Var",
+                "name": "PENDING",
+                "printedName": "PENDING",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BecomeDigitalV.ResponseIV.typeEstatus.Type) -> BecomeDigitalV.ResponseIV.typeEstatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "typeEstatus",
+                        "printedName": "BecomeDigitalV.ResponseIV.typeEstatus",
+                        "usr": "s:14BecomeDigitalV10ResponseIVV11typeEstatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BecomeDigitalV.ResponseIV.typeEstatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "typeEstatus",
+                            "printedName": "BecomeDigitalV.ResponseIV.typeEstatus",
+                            "usr": "s:14BecomeDigitalV10ResponseIVV11typeEstatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14BecomeDigitalV10ResponseIVV11typeEstatusO7PENDINGyA2EmF",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV11typeEstatusO7PENDINGyA2EmF",
+                "moduleName": "BecomeDigitalV"
+              },
+              {
+                "kind": "Var",
+                "name": "NOFOUND",
+                "printedName": "NOFOUND",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BecomeDigitalV.ResponseIV.typeEstatus.Type) -> BecomeDigitalV.ResponseIV.typeEstatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "typeEstatus",
+                        "printedName": "BecomeDigitalV.ResponseIV.typeEstatus",
+                        "usr": "s:14BecomeDigitalV10ResponseIVV11typeEstatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BecomeDigitalV.ResponseIV.typeEstatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "typeEstatus",
+                            "printedName": "BecomeDigitalV.ResponseIV.typeEstatus",
+                            "usr": "s:14BecomeDigitalV10ResponseIVV11typeEstatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14BecomeDigitalV10ResponseIVV11typeEstatusO7NOFOUNDyA2EmF",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV11typeEstatusO7NOFOUNDyA2EmF",
+                "moduleName": "BecomeDigitalV"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "typeEstatus",
+                    "printedName": "BecomeDigitalV.ResponseIV.typeEstatus",
+                    "usr": "s:14BecomeDigitalV10ResponseIVV11typeEstatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "typeEstatus",
+                    "printedName": "BecomeDigitalV.ResponseIV.typeEstatus",
+                    "usr": "s:14BecomeDigitalV10ResponseIVV11typeEstatusO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:14BecomeDigitalV10ResponseIVV11typeEstatusO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV11typeEstatusO2eeoiySbAE_AEtFZ",
+                "moduleName": "BecomeDigitalV",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:14BecomeDigitalV10ResponseIVV11typeEstatusO9hashValueSivp",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV11typeEstatusO9hashValueSivp",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14BecomeDigitalV10ResponseIVV11typeEstatusO9hashValueSivg",
+                    "mangledName": "$s14BecomeDigitalV10ResponseIVV11typeEstatusO9hashValueSivg",
+                    "moduleName": "BecomeDigitalV",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:14BecomeDigitalV10ResponseIVV11typeEstatusO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV11typeEstatusO4hash4intoys6HasherVz_tF",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:14BecomeDigitalV10ResponseIVV11typeEstatusO",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV11typeEstatusO",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "firstName",
+            "printedName": "firstName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10ResponseIVV9firstNameSSvp",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV9firstNameSSvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV9firstNameSSvg",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV9firstNameSSvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV9firstNameSSvs",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV9firstNameSSvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV9firstNameSSvM",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV9firstNameSSvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastName",
+            "printedName": "lastName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10ResponseIVV8lastNameSSvp",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV8lastNameSSvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV8lastNameSSvg",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV8lastNameSSvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV8lastNameSSvs",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV8lastNameSSvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV8lastNameSSvM",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV8lastNameSSvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "documentNumber",
+            "printedName": "documentNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10ResponseIVV14documentNumberSSvp",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV14documentNumberSSvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV14documentNumberSSvg",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV14documentNumberSSvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV14documentNumberSSvs",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV14documentNumberSSvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV14documentNumberSSvM",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV14documentNumberSSvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "personalIdNumber",
+            "printedName": "personalIdNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10ResponseIVV16personalIdNumberSSvp",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV16personalIdNumberSSvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV16personalIdNumberSSvg",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV16personalIdNumberSSvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV16personalIdNumberSSvs",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV16personalIdNumberSSvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV16personalIdNumberSSvM",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV16personalIdNumberSSvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dateOfIssue",
+            "printedName": "dateOfIssue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10ResponseIVV11dateOfIssue10Foundation4DateVvp",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV11dateOfIssue10Foundation4DateVvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV11dateOfIssue10Foundation4DateVvg",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV11dateOfIssue10Foundation4DateVvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV11dateOfIssue10Foundation4DateVvs",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV11dateOfIssue10Foundation4DateVvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV11dateOfIssue10Foundation4DateVvM",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV11dateOfIssue10Foundation4DateVvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dateOfExpiry",
+            "printedName": "dateOfExpiry",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10ResponseIVV12dateOfExpiry10Foundation4DateVvp",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV12dateOfExpiry10Foundation4DateVvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV12dateOfExpiry10Foundation4DateVvg",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV12dateOfExpiry10Foundation4DateVvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV12dateOfExpiry10Foundation4DateVvs",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV12dateOfExpiry10Foundation4DateVvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV12dateOfExpiry10Foundation4DateVvM",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV12dateOfExpiry10Foundation4DateVvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "age",
+            "printedName": "age",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10ResponseIVV3ageSivp",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV3ageSivp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV3ageSivg",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV3ageSivg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV3ageSivs",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV3ageSivs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV3ageSivM",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV3ageSivM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dateOfBirth",
+            "printedName": "dateOfBirth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10ResponseIVV11dateOfBirth10Foundation4DateVvp",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV11dateOfBirth10Foundation4DateVvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV11dateOfBirth10Foundation4DateVvg",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV11dateOfBirth10Foundation4DateVvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV11dateOfBirth10Foundation4DateVvs",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV11dateOfBirth10Foundation4DateVvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV11dateOfBirth10Foundation4DateVvM",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV11dateOfBirth10Foundation4DateVvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "placeOfBirth",
+            "printedName": "placeOfBirth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10ResponseIVV12placeOfBirthSSvp",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV12placeOfBirthSSvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV12placeOfBirthSSvg",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV12placeOfBirthSSvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV12placeOfBirthSSvs",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV12placeOfBirthSSvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV12placeOfBirthSSvM",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV12placeOfBirthSSvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nationality",
+            "printedName": "nationality",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10ResponseIVV11nationalitySSvp",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV11nationalitySSvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV11nationalitySSvg",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV11nationalitySSvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV11nationalitySSvs",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV11nationalitySSvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV11nationalitySSvM",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV11nationalitySSvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mrzText",
+            "printedName": "mrzText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10ResponseIVV7mrzTextSSvp",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV7mrzTextSSvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV7mrzTextSSvg",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV7mrzTextSSvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV7mrzTextSSvs",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV7mrzTextSSvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV7mrzTextSSvM",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV7mrzTextSSvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sex",
+            "printedName": "sex",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10ResponseIVV3sexSSvp",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV3sexSSvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV3sexSSvg",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV3sexSSvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV3sexSSvs",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV3sexSSvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV3sexSSvM",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV3sexSSvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "barcodeResult",
+            "printedName": "barcodeResult",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10ResponseIVV13barcodeResultSSvp",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV13barcodeResultSSvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV13barcodeResultSSvg",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV13barcodeResultSSvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV13barcodeResultSSvs",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV13barcodeResultSSvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV13barcodeResultSSvM",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV13barcodeResultSSvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "barcodeResultData",
+            "printedName": "barcodeResultData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10ResponseIVV17barcodeResultData10Foundation0G0Vvp",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV17barcodeResultData10Foundation0G0Vvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV17barcodeResultData10Foundation0G0Vvg",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV17barcodeResultData10Foundation0G0Vvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV17barcodeResultData10Foundation0G0Vvs",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV17barcodeResultData10Foundation0G0Vvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV17barcodeResultData10Foundation0G0VvM",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV17barcodeResultData10Foundation0G0VvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isoAlpha2CountryCode",
+            "printedName": "isoAlpha2CountryCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10ResponseIVV20isoAlpha2CountryCodeSSvp",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV20isoAlpha2CountryCodeSSvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV20isoAlpha2CountryCodeSSvg",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV20isoAlpha2CountryCodeSSvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV20isoAlpha2CountryCodeSSvs",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV20isoAlpha2CountryCodeSSvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV20isoAlpha2CountryCodeSSvM",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV20isoAlpha2CountryCodeSSvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isoAlpha3CountryCode",
+            "printedName": "isoAlpha3CountryCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10ResponseIVV20isoAlpha3CountryCodeSSvp",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV20isoAlpha3CountryCodeSSvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV20isoAlpha3CountryCodeSSvg",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV20isoAlpha3CountryCodeSSvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV20isoAlpha3CountryCodeSSvs",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV20isoAlpha3CountryCodeSSvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV20isoAlpha3CountryCodeSSvM",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV20isoAlpha3CountryCodeSSvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isoNumericCountryCode",
+            "printedName": "isoNumericCountryCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10ResponseIVV21isoNumericCountryCodeSSvp",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV21isoNumericCountryCodeSSvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV21isoNumericCountryCodeSSvg",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV21isoNumericCountryCodeSSvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV21isoNumericCountryCodeSSvs",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV21isoNumericCountryCodeSSvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV21isoNumericCountryCodeSSvM",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV21isoNumericCountryCodeSSvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MBType",
+                "printedName": "Microblink.MBType",
+                "usr": "c:@E@MBType"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10ResponseIVV4typeSo6MBTypeVvp",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV4typeSo6MBTypeVvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MBType",
+                    "printedName": "Microblink.MBType",
+                    "usr": "c:@E@MBType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV4typeSo6MBTypeVvg",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV4typeSo6MBTypeVvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MBType",
+                    "printedName": "Microblink.MBType",
+                    "usr": "c:@E@MBType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV4typeSo6MBTypeVvs",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV4typeSo6MBTypeVvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV4typeSo6MBTypeVvM",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV4typeSo6MBTypeVvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "countryName",
+            "printedName": "countryName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10ResponseIVV11countryNameSSvp",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV11countryNameSSvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV11countryNameSSvg",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV11countryNameSSvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV11countryNameSSvs",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV11countryNameSSvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV11countryNameSSvM",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV11countryNameSSvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "faceImage",
+            "printedName": "faceImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10ResponseIVV9faceImageSo7UIImageCSgvp",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV9faceImageSo7UIImageCSgvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV9faceImageSo7UIImageCSgvg",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV9faceImageSo7UIImageCSgvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV9faceImageSo7UIImageCSgvs",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV9faceImageSo7UIImageCSgvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV9faceImageSo7UIImageCSgvM",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV9faceImageSo7UIImageCSgvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "frontImage",
+            "printedName": "frontImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10ResponseIVV10frontImageSo7UIImageCSgvp",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV10frontImageSo7UIImageCSgvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV10frontImageSo7UIImageCSgvg",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV10frontImageSo7UIImageCSgvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV10frontImageSo7UIImageCSgvs",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV10frontImageSo7UIImageCSgvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV10frontImageSo7UIImageCSgvM",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV10frontImageSo7UIImageCSgvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backImage",
+            "printedName": "backImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10ResponseIVV9backImageSo7UIImageCSgvp",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV9backImageSo7UIImageCSgvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV9backImageSo7UIImageCSgvg",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV9backImageSo7UIImageCSgvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV9backImageSo7UIImageCSgvs",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV9backImageSo7UIImageCSgvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV9backImageSo7UIImageCSgvM",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV9backImageSo7UIImageCSgvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fullFronImage",
+            "printedName": "fullFronImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10ResponseIVV13fullFronImageSo7UIImageCSgvp",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV13fullFronImageSo7UIImageCSgvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV13fullFronImageSo7UIImageCSgvg",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV13fullFronImageSo7UIImageCSgvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV13fullFronImageSo7UIImageCSgvs",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV13fullFronImageSo7UIImageCSgvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV13fullFronImageSo7UIImageCSgvM",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV13fullFronImageSo7UIImageCSgvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fullBackImage",
+            "printedName": "fullBackImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10ResponseIVV13fullBackImageSo7UIImageCSgvp",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV13fullBackImageSo7UIImageCSgvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV13fullBackImageSo7UIImageCSgvg",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV13fullBackImageSo7UIImageCSgvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV13fullBackImageSo7UIImageCSgvs",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV13fullBackImageSo7UIImageCSgvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV13fullBackImageSo7UIImageCSgvM",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV13fullBackImageSo7UIImageCSgvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10ResponseIVV7messageSSvp",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV7messageSSvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV7messageSSvg",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV7messageSSvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV7messageSSvs",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV7messageSSvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV7messageSSvM",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV7messageSSvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "documentValidation",
+            "printedName": "documentValidation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10ResponseIVV18documentValidationSDySSypGvp",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV18documentValidationSDySSypGvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV18documentValidationSDySSypGvg",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV18documentValidationSDySSypGvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV18documentValidationSDySSypGvs",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV18documentValidationSDySSypGvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV18documentValidationSDySSypGvM",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV18documentValidationSDySSypGvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "registryInformation",
+            "printedName": "registryInformation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10ResponseIVV19registryInformationSDySSypGvp",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV19registryInformationSDySSypGvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV19registryInformationSDySSypGvg",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV19registryInformationSDySSypGvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV19registryInformationSDySSypGvs",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV19registryInformationSDySSypGvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV19registryInformationSDySSypGvM",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV19registryInformationSDySSypGvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "responseStatus",
+            "printedName": "responseStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "typeEstatus",
+                "printedName": "BecomeDigitalV.ResponseIV.typeEstatus",
+                "usr": "s:14BecomeDigitalV10ResponseIVV11typeEstatusO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10ResponseIVV14responseStatusAC11typeEstatusOvp",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV14responseStatusAC11typeEstatusOvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "typeEstatus",
+                    "printedName": "BecomeDigitalV.ResponseIV.typeEstatus",
+                    "usr": "s:14BecomeDigitalV10ResponseIVV11typeEstatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV14responseStatusAC11typeEstatusOvg",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV14responseStatusAC11typeEstatusOvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "typeEstatus",
+                    "printedName": "BecomeDigitalV.ResponseIV.typeEstatus",
+                    "usr": "s:14BecomeDigitalV10ResponseIVV11typeEstatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV14responseStatusAC11typeEstatusOvs",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV14responseStatusAC11typeEstatusOvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV14responseStatusAC11typeEstatusOvM",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV14responseStatusAC11typeEstatusOvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "IsFirstTransaction",
+            "printedName": "IsFirstTransaction",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10ResponseIVV18IsFirstTransactionSbvp",
+            "mangledName": "$s14BecomeDigitalV10ResponseIVV18IsFirstTransactionSbvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV18IsFirstTransactionSbvg",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV18IsFirstTransactionSbvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV18IsFirstTransactionSbvs",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV18IsFirstTransactionSbvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10ResponseIVV18IsFirstTransactionSbvM",
+                "mangledName": "$s14BecomeDigitalV10ResponseIVV18IsFirstTransactionSbvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14BecomeDigitalV10ResponseIVV",
+        "mangledName": "$s14BecomeDigitalV10ResponseIVV",
+        "moduleName": "BecomeDigitalV",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BecomeDigitalV",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BDIVConfig",
+        "printedName": "BDIVConfig",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(isFirstTransaction:enableRecognitionModeFilter:token:contractId:userId:documentNumber:isoAlpha2CountryCode:type:imgDataFullFront:imgDataCroppetBack:barcodeResultData:customLocalizationFileName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BDIVConfig",
+                "printedName": "BecomeDigitalV.BDIVConfig",
+                "usr": "s:14BecomeDigitalV10BDIVConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "hasDefaultArg": true,
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "hasDefaultArg": true,
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14BecomeDigitalV10BDIVConfigV18isFirstTransaction27enableRecognitionModeFilter5token10contractId04userM014documentNumber20isoAlpha2CountryCode4type16imgDataFullFront0vW11CroppetBack013barcodeResultW026customLocalizationFileNameACSb_SbS5SSi10Foundation0W0VARS2Stcfc",
+            "mangledName": "$s14BecomeDigitalV10BDIVConfigV18isFirstTransaction27enableRecognitionModeFilter5token10contractId04userM014documentNumber20isoAlpha2CountryCode4type16imgDataFullFront0vW11CroppetBack013barcodeResultW026customLocalizationFileNameACSb_SbS5SSi10Foundation0W0VARS2Stcfc",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "isFirstTransaction",
+            "printedName": "isFirstTransaction",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10BDIVConfigV18isFirstTransactionSbvp",
+            "mangledName": "$s14BecomeDigitalV10BDIVConfigV18isFirstTransactionSbvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10BDIVConfigV18isFirstTransactionSbvg",
+                "mangledName": "$s14BecomeDigitalV10BDIVConfigV18isFirstTransactionSbvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "enableRecognitionModeFilter",
+            "printedName": "enableRecognitionModeFilter",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10BDIVConfigV27enableRecognitionModeFilterSbvp",
+            "mangledName": "$s14BecomeDigitalV10BDIVConfigV27enableRecognitionModeFilterSbvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10BDIVConfigV27enableRecognitionModeFilterSbvg",
+                "mangledName": "$s14BecomeDigitalV10BDIVConfigV27enableRecognitionModeFilterSbvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10BDIVConfigV5tokenSSvp",
+            "mangledName": "$s14BecomeDigitalV10BDIVConfigV5tokenSSvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10BDIVConfigV5tokenSSvg",
+                "mangledName": "$s14BecomeDigitalV10BDIVConfigV5tokenSSvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10BDIVConfigV5tokenSSvs",
+                "mangledName": "$s14BecomeDigitalV10BDIVConfigV5tokenSSvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10BDIVConfigV5tokenSSvM",
+                "mangledName": "$s14BecomeDigitalV10BDIVConfigV5tokenSSvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "contractId",
+            "printedName": "contractId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10BDIVConfigV10contractIdSSvp",
+            "mangledName": "$s14BecomeDigitalV10BDIVConfigV10contractIdSSvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10BDIVConfigV10contractIdSSvg",
+                "mangledName": "$s14BecomeDigitalV10BDIVConfigV10contractIdSSvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userId",
+            "printedName": "userId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10BDIVConfigV6userIdSSvp",
+            "mangledName": "$s14BecomeDigitalV10BDIVConfigV6userIdSSvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10BDIVConfigV6userIdSSvg",
+                "mangledName": "$s14BecomeDigitalV10BDIVConfigV6userIdSSvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "documentNumber",
+            "printedName": "documentNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10BDIVConfigV14documentNumberSSvp",
+            "mangledName": "$s14BecomeDigitalV10BDIVConfigV14documentNumberSSvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10BDIVConfigV14documentNumberSSvg",
+                "mangledName": "$s14BecomeDigitalV10BDIVConfigV14documentNumberSSvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isoAlpha2CountryCode",
+            "printedName": "isoAlpha2CountryCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10BDIVConfigV20isoAlpha2CountryCodeSSvp",
+            "mangledName": "$s14BecomeDigitalV10BDIVConfigV20isoAlpha2CountryCodeSSvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10BDIVConfigV20isoAlpha2CountryCodeSSvg",
+                "mangledName": "$s14BecomeDigitalV10BDIVConfigV20isoAlpha2CountryCodeSSvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10BDIVConfigV4typeSivp",
+            "mangledName": "$s14BecomeDigitalV10BDIVConfigV4typeSivp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10BDIVConfigV4typeSivg",
+                "mangledName": "$s14BecomeDigitalV10BDIVConfigV4typeSivg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imgDataFullFront",
+            "printedName": "imgDataFullFront",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10BDIVConfigV16imgDataFullFront10Foundation0E0Vvp",
+            "mangledName": "$s14BecomeDigitalV10BDIVConfigV16imgDataFullFront10Foundation0E0Vvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10BDIVConfigV16imgDataFullFront10Foundation0E0Vvg",
+                "mangledName": "$s14BecomeDigitalV10BDIVConfigV16imgDataFullFront10Foundation0E0Vvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imgDataCroppetBack",
+            "printedName": "imgDataCroppetBack",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10BDIVConfigV18imgDataCroppetBack10Foundation0E0Vvp",
+            "mangledName": "$s14BecomeDigitalV10BDIVConfigV18imgDataCroppetBack10Foundation0E0Vvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10BDIVConfigV18imgDataCroppetBack10Foundation0E0Vvg",
+                "mangledName": "$s14BecomeDigitalV10BDIVConfigV18imgDataCroppetBack10Foundation0E0Vvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "barcodeResultData",
+            "printedName": "barcodeResultData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10BDIVConfigV17barcodeResultDataSSvp",
+            "mangledName": "$s14BecomeDigitalV10BDIVConfigV17barcodeResultDataSSvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10BDIVConfigV17barcodeResultDataSSvg",
+                "mangledName": "$s14BecomeDigitalV10BDIVConfigV17barcodeResultDataSSvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customLocalizationFileName",
+            "printedName": "customLocalizationFileName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10BDIVConfigV26customLocalizationFileNameSSvp",
+            "mangledName": "$s14BecomeDigitalV10BDIVConfigV26customLocalizationFileNameSSvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10BDIVConfigV26customLocalizationFileNameSSvg",
+                "mangledName": "$s14BecomeDigitalV10BDIVConfigV26customLocalizationFileNameSSvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14BecomeDigitalV10BDIVConfigV",
+        "mangledName": "$s14BecomeDigitalV10BDIVConfigV",
+        "moduleName": "BecomeDigitalV",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BecomeDigitalV",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BecomeDigitalV"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BecomeDigitalV",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BecomeDigitalV",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BecomeDigitalV",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "BecomeDigitalV"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BDIVCallBack",
+        "printedName": "BDIVCallBack",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sharedInstance",
+            "printedName": "sharedInstance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BDIVCallBack",
+                "printedName": "BecomeDigitalV.BDIVCallBack",
+                "usr": "s:14BecomeDigitalV12BDIVCallBackC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV12BDIVCallBackC14sharedInstanceACvpZ",
+            "mangledName": "$s14BecomeDigitalV12BDIVCallBackC14sharedInstanceACvpZ",
+            "moduleName": "BecomeDigitalV",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BDIVCallBack",
+                    "printedName": "BecomeDigitalV.BDIVCallBack",
+                    "usr": "s:14BecomeDigitalV12BDIVCallBackC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV12BDIVCallBackC14sharedInstanceACvgZ",
+                "mangledName": "$s14BecomeDigitalV12BDIVCallBackC14sharedInstanceACvgZ",
+                "moduleName": "BecomeDigitalV",
+                "static": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "BecomeDigitalV.BDIVDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV12BDIVCallBackC8delegateAA12BDIVDelegate_pSgvp",
+            "mangledName": "$s14BecomeDigitalV12BDIVCallBackC8delegateAA12BDIVDelegate_pSgvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BecomeDigitalV.BDIVDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BDIVDelegate",
+                        "printedName": "BecomeDigitalV.BDIVDelegate",
+                        "usr": "c:@M@BecomeDigitalV@objc(pl)BDIVDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV12BDIVCallBackC8delegateAA12BDIVDelegate_pSgvg",
+                "mangledName": "$s14BecomeDigitalV12BDIVCallBackC8delegateAA12BDIVDelegate_pSgvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BecomeDigitalV.BDIVDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BDIVDelegate",
+                        "printedName": "BecomeDigitalV.BDIVDelegate",
+                        "usr": "c:@M@BecomeDigitalV@objc(pl)BDIVDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV12BDIVCallBackC8delegateAA12BDIVDelegate_pSgvs",
+                "mangledName": "$s14BecomeDigitalV12BDIVCallBackC8delegateAA12BDIVDelegate_pSgvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV12BDIVCallBackC8delegateAA12BDIVDelegate_pSgvM",
+                "mangledName": "$s14BecomeDigitalV12BDIVCallBackC8delegateAA12BDIVDelegate_pSgvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(bdivConfig:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BDIVConfig",
+                "printedName": "BecomeDigitalV.BDIVConfig",
+                "usr": "s:14BecomeDigitalV10BDIVConfigV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14BecomeDigitalV12BDIVCallBackC8register10bdivConfigyAA10BDIVConfigV_tF",
+            "mangledName": "$s14BecomeDigitalV12BDIVCallBackC8register10bdivConfigyAA10BDIVConfigV_tF",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14BecomeDigitalV12BDIVCallBackC",
+        "mangledName": "$s14BecomeDigitalV12BDIVCallBackC",
+        "moduleName": "BecomeDigitalV",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BecomeDigitalV",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "BecomeDigitalV"
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "BecomeDigitalV"
+      },
+      {
+        "kind": "Import",
+        "name": "Microblink",
+        "printedName": "Microblink",
+        "declKind": "Import",
+        "moduleName": "BecomeDigitalV"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CaptureViewController",
+        "printedName": "CaptureViewController",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CaptureViewController",
+                "printedName": "BecomeDigitalV.CaptureViewController",
+                "usr": "c:@M@BecomeDigitalV@objc(cs)CaptureViewController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14BecomeDigitalV21CaptureViewControllerCACycfc",
+            "mangledName": "$s14BecomeDigitalV21CaptureViewControllerCACycfc",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "bdivConfig",
+            "printedName": "bdivConfig",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BecomeDigitalV.BDIVConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BDIVConfig",
+                    "printedName": "BecomeDigitalV.BDIVConfig",
+                    "usr": "s:14BecomeDigitalV10BDIVConfigV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV21CaptureViewControllerC10bdivConfigAA10BDIVConfigVSgvp",
+            "mangledName": "$s14BecomeDigitalV21CaptureViewControllerC10bdivConfigAA10BDIVConfigVSgvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BecomeDigitalV.BDIVConfig?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BDIVConfig",
+                        "printedName": "BecomeDigitalV.BDIVConfig",
+                        "usr": "s:14BecomeDigitalV10BDIVConfigV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV21CaptureViewControllerC10bdivConfigAA10BDIVConfigVSgvg",
+                "mangledName": "$s14BecomeDigitalV21CaptureViewControllerC10bdivConfigAA10BDIVConfigVSgvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BecomeDigitalV.BDIVConfig?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BDIVConfig",
+                        "printedName": "BecomeDigitalV.BDIVConfig",
+                        "usr": "s:14BecomeDigitalV10BDIVConfigV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV21CaptureViewControllerC10bdivConfigAA10BDIVConfigVSgvs",
+                "mangledName": "$s14BecomeDigitalV21CaptureViewControllerC10bdivConfigAA10BDIVConfigVSgvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV21CaptureViewControllerC10bdivConfigAA10BDIVConfigVSgvM",
+                "mangledName": "$s14BecomeDigitalV21CaptureViewControllerC10bdivConfigAA10BDIVConfigVSgvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BecomeDigitalV.BDIVDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BDIVDelegate",
+                    "printedName": "BecomeDigitalV.BDIVDelegate",
+                    "usr": "c:@M@BecomeDigitalV@objc(pl)BDIVDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV21CaptureViewControllerC8delegateAA12BDIVDelegate_pSgvp",
+            "mangledName": "$s14BecomeDigitalV21CaptureViewControllerC8delegateAA12BDIVDelegate_pSgvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BecomeDigitalV.BDIVDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BDIVDelegate",
+                        "printedName": "BecomeDigitalV.BDIVDelegate",
+                        "usr": "c:@M@BecomeDigitalV@objc(pl)BDIVDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV21CaptureViewControllerC8delegateAA12BDIVDelegate_pSgvg",
+                "mangledName": "$s14BecomeDigitalV21CaptureViewControllerC8delegateAA12BDIVDelegate_pSgvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BecomeDigitalV.BDIVDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BDIVDelegate",
+                        "printedName": "BecomeDigitalV.BDIVDelegate",
+                        "usr": "c:@M@BecomeDigitalV@objc(pl)BDIVDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV21CaptureViewControllerC8delegateAA12BDIVDelegate_pSgvs",
+                "mangledName": "$s14BecomeDigitalV21CaptureViewControllerC8delegateAA12BDIVDelegate_pSgvs",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV21CaptureViewControllerC8delegateAA12BDIVDelegate_pSgvM",
+                "mangledName": "$s14BecomeDigitalV21CaptureViewControllerC8delegateAA12BDIVDelegate_pSgvM",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BecomeDigitalV@objc(cs)CaptureViewController(im)viewDidLoad",
+            "mangledName": "$s14BecomeDigitalV21CaptureViewControllerC11viewDidLoadyyF",
+            "moduleName": "BecomeDigitalV",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CaptureViewController",
+                "printedName": "BecomeDigitalV.CaptureViewController",
+                "usr": "c:@M@BecomeDigitalV@objc(cs)CaptureViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BecomeDigitalV@objc(cs)CaptureViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s14BecomeDigitalV21CaptureViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "BecomeDigitalV",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "blinkIdOverlayViewControllerDidFinishScanning",
+            "printedName": "blinkIdOverlayViewControllerDidFinishScanning(_:state:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MBBlinkIdOverlayViewController",
+                "printedName": "Microblink.MBBlinkIdOverlayViewController",
+                "usr": "c:objc(cs)MBBlinkIdOverlayViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MBRecognizerResultState",
+                "printedName": "Microblink.MBRecognizerResultState",
+                "usr": "c:@E@MBRecognizerResultState"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BecomeDigitalV@objc(cs)CaptureViewController(im)blinkIdOverlayViewControllerDidFinishScanning:state:",
+            "mangledName": "$s14BecomeDigitalV21CaptureViewControllerC014blinkIdOverlaydE17DidFinishScanning_5stateySo07MBBlinkghdE0C_So23MBRecognizerResultStateVtF",
+            "moduleName": "BecomeDigitalV",
+            "objc_name": "blinkIdOverlayViewControllerDidFinishScanning:state:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "blinkIdOverlayViewControllerDidTapClose",
+            "printedName": "blinkIdOverlayViewControllerDidTapClose(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MBBlinkIdOverlayViewController",
+                "printedName": "Microblink.MBBlinkIdOverlayViewController",
+                "usr": "c:objc(cs)MBBlinkIdOverlayViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BecomeDigitalV@objc(cs)CaptureViewController(im)blinkIdOverlayViewControllerDidTapClose:",
+            "mangledName": "$s14BecomeDigitalV21CaptureViewControllerC014blinkIdOverlaydE11DidTapCloseyySo07MBBlinkghdE0CF",
+            "moduleName": "BecomeDigitalV",
+            "objc_name": "blinkIdOverlayViewControllerDidTapClose:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BecomeDigitalV@objc(cs)CaptureViewController",
+        "mangledName": "$s14BecomeDigitalV21CaptureViewControllerC",
+        "moduleName": "BecomeDigitalV",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)MBOverlayViewController",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "Microblink.MBOverlayViewController",
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BecomeDigitalV",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "BecomeDigitalV"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIImageView",
+        "printedName": "UIImageView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "loadGif",
+            "printedName": "loadGif(name:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UIImageViewC14BecomeDigitalVE7loadGif4name6bundleySS_So8NSBundleCtF",
+            "mangledName": "$sSo11UIImageViewC14BecomeDigitalVE7loadGif4name6bundleySS_So8NSBundleCtF",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIImageView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIImageView",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIImage",
+        "printedName": "UIImage",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "gif",
+            "printedName": "gif(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC14BecomeDigitalVE3gif4dataABSg10Foundation4DataV_tFZ",
+            "mangledName": "$sSo7UIImageC14BecomeDigitalVE3gif4dataABSg10Foundation4DataV_tFZ",
+            "moduleName": "BecomeDigitalV",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "gif",
+            "printedName": "gif(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC14BecomeDigitalVE3gif3urlABSgSS_tFZ",
+            "mangledName": "$sSo7UIImageC14BecomeDigitalVE3gif3urlABSgSS_tFZ",
+            "moduleName": "BecomeDigitalV",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "gif",
+            "printedName": "gif(name:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC14BecomeDigitalVE3gif4name6bundleABSgSS_So8NSBundleCtFZ",
+            "mangledName": "$sSo7UIImageC14BecomeDigitalVE3gif4name6bundleABSgSS_So8NSBundleCtFZ",
+            "moduleName": "BecomeDigitalV",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIImage",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIImage",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByImageLiteral",
+            "printedName": "_ExpressibleByImageLiteral",
+            "usr": "s:s26_ExpressibleByImageLiteralP",
+            "mangledName": "$ss26_ExpressibleByImageLiteralP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/IBDesignables\/DesignableButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 250,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/IBDesignables\/DesignableButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 543,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "kind": "StringLiteral",
+      "offset": 241,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "kind": "StringLiteral",
+      "offset": 280,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "kind": "StringLiteral",
+      "offset": 325,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "kind": "StringLiteral",
+      "offset": 372,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 492,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "kind": "StringLiteral",
+      "offset": 578,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "kind": "StringLiteral",
+      "offset": 620,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "kind": "StringLiteral",
+      "offset": 658,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "kind": "StringLiteral",
+      "offset": 692,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "kind": "StringLiteral",
+      "offset": 736,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "kind": "StringLiteral",
+      "offset": 837,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "kind": "StringLiteral",
+      "offset": 888,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "kind": "StringLiteral",
+      "offset": 940,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "kind": "StringLiteral",
+      "offset": 1022,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "kind": "StringLiteral",
+      "offset": 1307,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "kind": "Dictionary",
+      "offset": 1363,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "kind": "Dictionary",
+      "offset": 1421,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1536,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/BDIVConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1560,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/BDIVConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1610,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/BDIVConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1725,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/BDIVConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1768,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/BDIVConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1792,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/BDIVConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1915,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/BDIVConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1964,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 282,
+      "length": 21,
+      "value": "\"BecomeDigitalV.CaptureViewController\""
+    }
+  ]
+}
