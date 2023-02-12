@@ -281,6 +281,8 @@ SWIFT_CLASS("_TtC14BecomeDigitalV21CaptureViewController")
 
 
 
+
+
 #endif
 #if defined(__cplusplus)
 #endif

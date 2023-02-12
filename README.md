@@ -2,10 +2,6 @@
 
 Proceso de instalación de la librería become_IOS_SDK.
 
-## Agregar Alamofire al proyecto
-Se debe agregar la librería **Alamofire** al proyecto, click [aqui](https://github.com/Alamofire/Alamofire) para la documentación. 
-
-
 ## Agregar Frameworks al proyecto
 Se debe agregar la librería `BecomeDigitalV.framework` en las configuraciones generales del proyecto en la sección **framework, libraries, and embedded content**:
 
@@ -40,7 +36,8 @@ La SDK requiere que dentro de las configuraciones `info.plis`, se encuentre una 
                dateFormatter.dateFormat = "yyyyMMddHHmmssSSS"
                userID = userId.text!.isEmpty ? dateFormatter.string(from: Date()) : userId.text!
                
-               let bdivConfig = BDIVConfig(ItFirstTransaction: true,
+               let bdivConfig = BDIVConfig(isFirstTransaction: true,
+                                            enableRecognitionModeFilter: true, // default false: Filter for recognition of immigration documents that contain different types of QR codes on the back. 
                                               token:"your_bearer_token",
                                               contractId:  "your_contract_id",
                                               userId: userID,
