@@ -4418,9 +4418,9 @@
             "mangledName": "$s14BecomeDigitalV21CaptureViewControllerC10bdivConfigAA10BDIVConfigVSgvp",
             "moduleName": "BecomeDigitalV",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -4529,9 +4529,9 @@
             "mangledName": "$s14BecomeDigitalV21CaptureViewControllerC8delegateAA12BDIVDelegate_pSgvp",
             "moduleName": "BecomeDigitalV",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "HasStorage",
+              "Custom",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -5186,200 +5186,1775 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/IBDesignables\/DesignableButton.swift",
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UIImage+Gif.swift",
+      "kind": "StringLiteral",
+      "offset": 1485,
+      "length": 5,
+      "value": "\"gif\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UIImage+Gif.swift",
+      "kind": "FloatLiteral",
+      "offset": 1978,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UIImage+Gif.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2187,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UIImage+Gif.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2338,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UIImage+Gif.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2780,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UIImage+Gif.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3017,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UIImage+Gif.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3478,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UIImage+Gif.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3697,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UIImage+Gif.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3755,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UIImage+Gif.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4008,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UIImage+Gif.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4045,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UIImage+Gif.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4400,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UIImage+Gif.swift",
+      "kind": "FloatLiteral",
+      "offset": 4746,
+      "length": 6,
+      "value": "1000.0"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UIImage+Gif.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4870,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UIImage+Gif.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5158,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UIImage+Gif.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5296,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UIImage+Gif.swift",
+      "kind": "FloatLiteral",
+      "offset": 5494,
+      "length": 6,
+      "value": "1000.0"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 545,
+      "length": 19,
+      "value": "\"--\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 559,
+      "length": 1,
+      "value": "\"\r\n\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 670,
+      "length": 54,
+      "value": "\"Content-Disposition: form-data; name=\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 717,
+      "length": 1,
+      "value": "\"\"\r\n\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 751,
+      "length": 46,
+      "value": "\"Content-Type: \""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 788,
+      "length": 1,
+      "value": "\"\r\n\r\n\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 855,
+      "length": 6,
+      "value": "\"\r\n\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1257,
+      "length": 19,
+      "value": "\"--\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1271,
+      "length": 1,
+      "value": "\"\r\n\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1382,
+      "length": 80,
+      "value": "\"Content-Disposition: form-data; name=\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1429,
+      "length": 1,
+      "value": "\"\"; filename=\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1455,
+      "length": 1,
+      "value": "\"\"\r\n\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1489,
+      "length": 46,
+      "value": "\"Content-Type: \""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1526,
+      "length": 1,
+      "value": "\"\r\n\r\n\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1593,
+      "length": 6,
+      "value": "\"\r\n\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1830,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1862,
+      "length": 43,
+      "value": "\"multipart\/form-data; boundary=\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1904,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1927,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1968,
+      "length": 18,
+      "value": "\"Bearer  \""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1985,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2008,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2090,
+      "length": 12,
+      "value": "\"User-Agent\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2128,
+      "length": 17,
+      "value": "\"--\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2142,
+      "length": 2,
+      "value": "\"--\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2455,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2491,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2519,
+      "length": 4,
+      "value": "0xFF"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2540,
+      "length": 12,
+      "value": "\"image\/jpeg\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2562,
+      "length": 4,
+      "value": "0x89"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2583,
+      "length": 11,
+      "value": "\"image\/jpg\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2604,
+      "length": 4,
+      "value": "0x47"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2625,
+      "length": 11,
+      "value": "\"image\/gif\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2646,
+      "length": 4,
+      "value": "0x4D"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2652,
+      "length": 4,
+      "value": "0x49"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2673,
+      "length": 12,
+      "value": "\"image\/tiff\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2695,
+      "length": 4,
+      "value": "0x25"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2716,
+      "length": 17,
+      "value": "\"application\/pdf\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2743,
+      "length": 4,
+      "value": "0xD0"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2764,
+      "length": 17,
+      "value": "\"application\/vnd\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2791,
+      "length": 4,
+      "value": "0x46"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2812,
+      "length": 12,
+      "value": "\"text\/plain\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/MultipartFormDataRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2853,
+      "length": 26,
+      "value": "\"application\/octet-stream\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/IBDesignables\/DesignableButton.swift",
       "kind": "FloatLiteral",
       "offset": 250,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/IBDesignables\/DesignableButton.swift",
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/IBDesignables\/DesignableButton.swift",
       "kind": "IntegerLiteral",
       "offset": 543,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
       "kind": "StringLiteral",
       "offset": 241,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
       "kind": "StringLiteral",
       "offset": 280,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
       "kind": "StringLiteral",
       "offset": 325,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
       "kind": "StringLiteral",
       "offset": 372,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
       "kind": "IntegerLiteral",
       "offset": 492,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
       "kind": "StringLiteral",
       "offset": 578,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
       "kind": "StringLiteral",
       "offset": 620,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
       "kind": "StringLiteral",
       "offset": 658,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
       "kind": "StringLiteral",
       "offset": 692,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
       "kind": "StringLiteral",
       "offset": 736,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
       "kind": "StringLiteral",
       "offset": 837,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
       "kind": "StringLiteral",
       "offset": 888,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
       "kind": "StringLiteral",
       "offset": 940,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
       "kind": "StringLiteral",
       "offset": 1022,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
       "kind": "StringLiteral",
       "offset": 1307,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
       "kind": "Dictionary",
       "offset": 1363,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
       "kind": "Dictionary",
       "offset": 1421,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/ResponseIV.swift",
       "kind": "BooleanLiteral",
       "offset": 1536,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/BDIVConfig.swift",
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/BDIVConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 1560,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/BDIVConfig.swift",
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/BDIVConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 1610,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/BDIVConfig.swift",
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/BDIVConfig.swift",
       "kind": "StringLiteral",
       "offset": 1725,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/BDIVConfig.swift",
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/BDIVConfig.swift",
       "kind": "StringLiteral",
       "offset": 1768,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/BDIVConfig.swift",
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/BDIVConfig.swift",
       "kind": "IntegerLiteral",
       "offset": 1792,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/BDIVConfig.swift",
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/BDIVConfig.swift",
       "kind": "StringLiteral",
       "offset": 1915,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/BDIVConfig.swift",
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/BDIVConfig.swift",
       "kind": "StringLiteral",
       "offset": 1964,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/nelsonpena\/Temp\/iOS\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UITextField+Focus.swift",
+      "kind": "StringLiteral",
+      "offset": 276,
+      "length": 18,
+      "value": "\"colorPrimaryBlue\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UITextField+Focus.swift",
+      "kind": "StringLiteral",
+      "offset": 319,
+      "length": 60,
+      "value": "\"com.becomedigital.sdk.identity.verification.BecomeDigitalV\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UITextField+Focus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 412,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UITextField+Focus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 511,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UITextField+Focus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 613,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UITextField+Focus.swift",
+      "kind": "StringLiteral",
+      "offset": 705,
+      "length": 10,
+      "value": "\"grayText\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UITextField+Focus.swift",
+      "kind": "StringLiteral",
+      "offset": 740,
+      "length": 60,
+      "value": "\"com.becomedigital.sdk.identity.verification.BecomeDigitalV\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UITextField+Focus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 833,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UITextField+Focus.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1052,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UITextField+Focus.swift",
+      "kind": "StringLiteral",
+      "offset": 1146,
+      "length": 7,
+      "value": "\"width\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UITextField+Focus.swift",
+      "kind": "StringLiteral",
+      "offset": 1201,
+      "length": 10,
+      "value": "\"lineView\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UITextField+Focus.swift",
+      "kind": "StringLiteral",
+      "offset": 1301,
+      "length": 16,
+      "value": "\"H:|[lineView]|\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UITextField+Focus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1370,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UITextField+Focus.swift",
+      "kind": "StringLiteral",
+      "offset": 1491,
+      "length": 22,
+      "value": "\"V:[lineView(width)]|\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/UITextField+Focus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1566,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/BounceButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 321,
+      "length": 3,
+      "value": "1.1"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/BounceButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 329,
+      "length": 3,
+      "value": "1.1"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/BounceButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 512,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/BounceButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 524,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/BounceButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 551,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Extensions\/BounceButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 579,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Utils\/URLSession+URLSessionDataTask.swift",
+      "kind": "StringLiteral",
+      "offset": 231,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1518,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "StringLiteral",
+      "offset": 1714,
+      "length": 12,
+      "value": "\"Dictionary\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "StringLiteral",
+      "offset": 1736,
+      "length": 13,
+      "value": "\"stringsdict\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "StringLiteral",
+      "offset": 1835,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "StringLiteral",
+      "offset": 1877,
+      "length": 23,
+      "value": "\"text_msn_error_config\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "StringLiteral",
+      "offset": 2221,
+      "length": 12,
+      "value": "\"Dictionary\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "StringLiteral",
+      "offset": 2243,
+      "length": 13,
+      "value": "\"stringsdict\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "StringLiteral",
+      "offset": 2326,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "StringLiteral",
+      "offset": 2510,
+      "length": 21,
+      "value": "\"navigator.userAgent\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "StringLiteral",
+      "offset": 2746,
+      "length": 30,
+      "value": "\"text_load_info_transaction_2\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "StringLiteral",
+      "offset": 2966,
+      "length": 30,
+      "value": "\"failed to get the user agent\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3752,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "StringLiteral",
+      "offset": 3826,
+      "length": 4,
+      "value": "\"CO\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "StringLiteral",
+      "offset": 3881,
+      "length": 28,
+      "value": "\"download_registry_progress\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4200,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4887,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "StringLiteral",
+      "offset": 4988,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "StringLiteral",
+      "offset": 5019,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5370,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "StringLiteral",
+      "offset": 5481,
+      "length": 24,
+      "value": "\"error_contractid_empty\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5542,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "StringLiteral",
+      "offset": 5655,
+      "length": 29,
+      "value": "\"error_vallidationtype_empty\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5721,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "StringLiteral",
+      "offset": 5835,
+      "length": 19,
+      "value": "\"error_userid_emty\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5891,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5985,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "StringLiteral",
+      "offset": 6056,
+      "length": 18,
+      "value": "\"error_type_empty\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6115,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "StringLiteral",
+      "offset": 6251,
+      "length": 21,
+      "value": "\"error_country_empty\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6313,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 384,
+      "length": 23,
+      "value": "\"CaptureViewController\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 525,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1163,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1631,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1733,
+      "length": 12,
+      "value": "\"Dictionary\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1755,
+      "length": 13,
+      "value": "\"stringsdict\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1838,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2187,
+      "length": 6,
+      "value": "\"Info\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2203,
+      "length": 7,
+      "value": "\"plist\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2215,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2263,
+      "length": 16,
+      "value": "\"com_become_key\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2479,
+      "length": 15,
+      "value": "\"general_error\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2632,
+      "length": 19,
+      "value": "\"License not found\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3675,
+      "length": 28,
+      "value": "\"tittle_permisiions_not_aut\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3744,
+      "length": 26,
+      "value": "\"camera_error_permissions\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3881,
+      "length": 4,
+      "value": "\"OK\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4094,
+      "length": 17,
+      "value": "\"Configuraciones\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "Dictionary",
+      "offset": 4396,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4548,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4684,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4788,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5889,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5960,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6028,
+      "length": 3,
+      "value": "400"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6090,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7464,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7626,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7679,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7714,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7750,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7791,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7828,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 11583,
+      "length": 3,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 11594,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 11952,
+      "length": 3,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 11963,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12435,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12608,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12824,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 12934,
+      "length": 28,
+      "value": "\"error_tittle_resume_camera\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
       "kind": "StringLiteral",
       "offset": 282,
       "length": 21,
       "value": "\"BecomeDigitalV.CaptureViewController\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13796,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/CaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 13898,
+      "length": 16,
+      "value": "\"cancel_by_user\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 703,
+      "length": 6,
+      "value": "\"Info\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 719,
+      "length": 7,
+      "value": "\"plist\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 793,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 827,
+      "length": 62,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 842,
+      "length": 18,
+      "value": "\"url_get_contract\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 875,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 888,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 964,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 995,
+      "length": 22,
+      "value": "\"Bearer \""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 1016,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 1039,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "Array",
+      "offset": 1424,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 1549,
+      "length": 5,
+      "value": "\"msg\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 1688,
+      "length": 15,
+      "value": "\"canUseOnexOne\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 1778,
+      "length": 16,
+      "value": "\"countIsOnexOne\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 1866,
+      "length": 14,
+      "value": "\"maxIsOnexOne\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 1953,
+      "length": 15,
+      "value": "\"canUseOnexOne\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 2112,
+      "length": 16,
+      "value": "\"countIsOnexOne\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 2273,
+      "length": 14,
+      "value": "\"maxIsOnexOne\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 2569,
+      "length": 15,
+      "value": "\"general_error\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 3065,
+      "length": 12,
+      "value": "\"Dictionary\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 3087,
+      "length": 13,
+      "value": "\"stringsdict\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 3170,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 3242,
+      "length": 6,
+      "value": "\"Info\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 3258,
+      "length": 7,
+      "value": "\"plist\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 3332,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 3378,
+      "length": 15,
+      "value": "\"url_load_data\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 3410,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 3566,
+      "length": 12,
+      "value": "\"contractId\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 3665,
+      "length": 8,
+      "value": "\"userId\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 3756,
+      "length": 14,
+      "value": "\"documentType\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 3846,
+      "length": 9,
+      "value": "\"country\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 4007,
+      "length": 11,
+      "value": "\"backImage\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 4122,
+      "length": 6,
+      "value": "\"file\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 4140,
+      "length": 10,
+      "value": "\"file.jpg\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 4223,
+      "length": 11,
+      "value": "\"backImage\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 4246,
+      "length": 15,
+      "value": "\"backImage.jpg\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "Dictionary",
+      "offset": 4614,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "Array",
+      "offset": 4834,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 4962,
+      "length": 13,
+      "value": "\"status_code\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 5045,
+      "length": 4,
+      "value": "\"OK\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "Dictionary",
+      "offset": 5193,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 5339,
+      "length": 5,
+      "value": "\"msg\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "Dictionary",
+      "offset": 5403,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 5496,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "Dictionary",
+      "offset": 5562,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "Dictionary",
+      "offset": 5696,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 5719,
+      "length": 15,
+      "value": "\"general_error\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "Dictionary",
+      "offset": 5847,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 6245,
+      "length": 6,
+      "value": "\"Info\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 6261,
+      "length": 7,
+      "value": "\"plist\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 6335,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 6381,
+      "length": 19,
+      "value": "\"url_data_registry\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 6417,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 6494,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 6526,
+      "length": 28,
+      "value": "\"Bearer \""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 6553,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 6576,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 6618,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 6658,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 6699,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 6739,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6934,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 7033,
+      "length": 45,
+      "value": "\"Error: Trying to convert model to JSON data\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "Dictionary",
+      "offset": 7361,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "Array",
+      "offset": 7578,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 7701,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "Dictionary",
+      "offset": 7763,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "Dictionary",
+      "offset": 7954,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "StringLiteral",
+      "offset": 7977,
+      "length": 15,
+      "value": "\"general_error\""
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Services\/RestServices.swift",
+      "kind": "Dictionary",
+      "offset": 8105,
+      "length": 3,
+      "value": "[]"
     }
   ]
 }
