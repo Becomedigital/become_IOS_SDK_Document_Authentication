@@ -313,6 +313,7 @@ SWIFT_CLASS("_TtC14BecomeDigitalV21CaptureViewController")
 
 
 
+
 #endif
 #if defined(__cplusplus)
 #endif
@@ -630,6 +631,7 @@ SWIFT_CLASS("_TtC14BecomeDigitalV21CaptureViewController")
 - (void)blinkIdOverlayViewControllerDidFinishScanning:(MBBlinkIdOverlayViewController * _Nonnull)blinkIdOverlayViewController state:(MBRecognizerResultState)state;
 - (void)blinkIdOverlayViewControllerDidTapClose:(MBBlinkIdOverlayViewController * _Nonnull)blinkIdOverlayViewController;
 @end
+
 
 
 

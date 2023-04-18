@@ -3,10 +3,12 @@
 // swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BecomeDigitalV
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
+import AVKit
 @_exported import BecomeDigitalV
 import Foundation
 import ImageIO
 import Microblink
+import Photos
 import Swift
 import SystemConfiguration
 import UIKit
@@ -69,7 +71,7 @@ public struct ResponseIV {
   public var IsFirstTransaction: Swift.Bool
 }
 public struct BDIVConfig {
-  public init(isFirstTransaction: Swift.Bool = true, enableRecognitionModeFilter: Swift.Bool = false, token: Swift.String, contractId: Swift.String, userId: Swift.String, documentNumber: Swift.String = "", isoAlpha2CountryCode: Swift.String = "", type: Swift.Int = 0, imgDataFullFront: Foundation.Data = Data(), imgDataCroppetBack: Foundation.Data = Data(), barcodeResultData: Swift.String = "", customLocalizationFileName: Swift.String = "")
+  public init(isFirstTransaction: Swift.Bool = true, enableRecognitionModeFilter: Swift.Bool = false, token: Swift.String, contractId: Swift.String, userId: Swift.String, documentNumber: Swift.String = "", isoAlpha2CountryCode: Swift.String = "", type: Swift.Int = 0, imgDataFullFront: Foundation.Data = Data(), imgDataCroppetBack: Foundation.Data = Data(), barcodeResultData: Swift.String = "", customLocalizationFileName: Swift.String = "", captureType: BecomeDigitalV.BDIVConfig.DocumentType = .nationalId)
   public let isFirstTransaction: Swift.Bool
   public let enableRecognitionModeFilter: Swift.Bool
   public var token: Swift.String
@@ -82,6 +84,17 @@ public struct BDIVConfig {
   public let imgDataCroppetBack: Foundation.Data
   public let barcodeResultData: Swift.String
   public let customLocalizationFileName: Swift.String
+  public let captureType: BecomeDigitalV.BDIVConfig.DocumentType
+  public enum DocumentType {
+    case nationalId
+    case alienId
+    case passport
+    public static func == (a: BecomeDigitalV.BDIVConfig.DocumentType, b: BecomeDigitalV.BDIVConfig.DocumentType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
 }
 @_hasMissingDesignatedInitializers public class BDIVCallBack {
   public class var sharedInstance: BecomeDigitalV.BDIVCallBack {
@@ -93,8 +106,6 @@ public struct BDIVConfig {
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class CaptureViewController : Microblink.MBOverlayViewController {
   @_Concurrency.MainActor(unsafe) public init()
-  @_Concurrency.MainActor(unsafe) public var bdivConfig: BecomeDigitalV.BDIVConfig?
-  @_Concurrency.MainActor(unsafe) public var delegate: (any BecomeDigitalV.BDIVDelegate)?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @objc deinit
 }
@@ -104,3 +115,5 @@ extension BecomeDigitalV.CaptureViewController : Microblink.MBBlinkIdOverlayView
 }
 extension BecomeDigitalV.ResponseIV.typeEstatus : Swift.Equatable {}
 extension BecomeDigitalV.ResponseIV.typeEstatus : Swift.Hashable {}
+extension BecomeDigitalV.BDIVConfig.DocumentType : Swift.Equatable {}
+extension BecomeDigitalV.BDIVConfig.DocumentType : Swift.Hashable {}
