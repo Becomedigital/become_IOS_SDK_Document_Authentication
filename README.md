@@ -5,7 +5,7 @@ Proceso de instalación de la librería become_IOS_SDK.
 ## Agregar Frameworks al proyecto
 Se debe agregar la librería `BecomeDigitalV.framework` en las configuraciones generales del proyecto en la sección **framework, libraries, and embedded content**:
 
-Para el correcto funcionamiento de la SDK, se requiere el uso de los frameworks o librerías `Alamofire.framework` y `Microblink.xcframework`, los cuales se deben adicionar en la sección **framework, libraries, and embedded content**:
+Para el correcto funcionamiento de la SDK, se requiere el uso del framework  `Microblink.xcframework`, el cual se deben adicionar en la sección **framework, libraries, and embedded content**:
  
  <p align="center">
   <img src="https://github.com/Becomedigital/become_IOS_SDK_Document_Authentication/blob/main/IMG_2.png">
