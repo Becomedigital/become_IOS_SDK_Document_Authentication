@@ -265,5 +265,3 @@ Esta sección se encarga de proporcionar el fragmento de código para la impleme
 ## Requerimientos
 •	Tecnologías
 iOS 12 en adelante
-•	Alamofire
-5.5.0 / Swift Package Manager
