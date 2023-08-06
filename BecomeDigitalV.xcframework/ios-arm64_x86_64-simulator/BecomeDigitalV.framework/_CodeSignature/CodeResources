@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		+A0wrdCwHA5nDt2kN+PDOyl92ZQ=
+		6V+weVd5Qok8LloJvy7xsCQ67nY=
 		</data>
 		<key>CameraViewController.nib</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/BecomeDigitalV-Swift.h</key>
 		<data>
-		iT6l5PBaz6QhXzlWaJ0HL0Di9Z0=
+		ysHB5RlDuuT+HJb8yjtrnKM0/G0=
 		</data>
 		<key>Headers/BecomeDigitalV.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		06+HImJefgcx0Ry/DSAN6B0sX1Y=
+		r3bwbAl0Rt5CIqlDlH+zPAQMXB4=
 		</data>
 		<key>IntroDocumentCaptureViewController.nib/objects-13.0+.nib</key>
 		<data>
@@ -38,43 +38,43 @@
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		72DhWMm8A3nEIKsLHl0Us7N3xVQ=
+		dJQXC7mpZ/NxfcKyGnpDeve4brs=
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		9r7zAzhepWT8hJQpSemC4khi6P4=
+		PHJ6bqoZf+IbnxkoasT91z02VY4=
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		R7N5kjcope7ZMSPLUHDAeZ1Ti00=
+		t2g/4+OATLz0pPyYR/KXv4vVQWw=
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		9r7zAzhepWT8hJQpSemC4khi6P4=
+		PHJ6bqoZf+IbnxkoasT91z02VY4=
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		7EDaPyJSTtRLYnf6KM4URVu6/as=
+		JZZrU65kMk05Q4EKgrt+sMIstv4=
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		72DhWMm8A3nEIKsLHl0Us7N3xVQ=
+		dJQXC7mpZ/NxfcKyGnpDeve4brs=
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Zpvi7dZgPrdVNw5l2c6GkJmGYWQ=
+		BbFrXnEL18wURt/Z6vOCQR1UxXI=
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Y6p22PyfyW6TtrWPfvsRNzjaXDg=
+		2oFPNNp5hdNB7j+TMcfB9x2dF0w=
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Zpvi7dZgPrdVNw5l2c6GkJmGYWQ=
+		BbFrXnEL18wURt/Z6vOCQR1UxXI=
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/l30UyPQVJFbkblVMkquotbYH4o=
+		a7tf+Le4J+gcZMw0+7eFPEJ/E8Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -130,7 +130,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4gVcggWnFUSKNPDsjSSGtqq3hc2klnsf7vdDHJgwPVo=
+			9EdDS7Sxn2HlEJEZJFfPLdOSbvMk3l5+fncooQiTEmY=
 			</data>
 		</dict>
 		<key>CameraViewController.nib</key>
@@ -151,7 +151,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fs+evy2G/cvmvx7HwXEre+x+PsJc02LeFeOGwVmski4=
+			u+IN8MeEk+AzxVCZrxf2RgeZ9VBn32hhcUpUBURloWU=
 			</data>
 		</dict>
 		<key>Headers/BecomeDigitalV.h</key>
@@ -179,70 +179,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/EGw7L4PJIJSvr1/qtuzMLVCYXubs5czJDJeoNcA+Y8=
+			qxo24+6TVr/yb3PAmI2SPVs0XpL7oDx1c7k+MaAb9BY=
 			</data>
 		</dict>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jLDrVmWh300r6ItF7FWmkWAhSeKfUcqKvNaJjCVvvfc=
+			sE6W6mSk1T+8r6BcsdWYaQy2poMeN5dliSc2idG886c=
 			</data>
 		</dict>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WsE/lIP/rYK79415Qj6rosQyVKHsdISUOFYppNU8MPk=
+			TBEhbg4Nr7MeIkIC3uHZTuQUJr8V2eOrg2qv7bkdJGQ=
 			</data>
 		</dict>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jLDrVmWh300r6ItF7FWmkWAhSeKfUcqKvNaJjCVvvfc=
+			sE6W6mSk1T+8r6BcsdWYaQy2poMeN5dliSc2idG886c=
 			</data>
 		</dict>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gtg90Z5klcYMeD1cTmUTIeJJaQF0dBNn30naCNObIlw=
+			yq5l2HIsaPHyovDVrHfoYCMENPxHUc4Th3sF8WTdYo0=
 			</data>
 		</dict>
 		<key>Modules/BecomeDigitalV.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/EGw7L4PJIJSvr1/qtuzMLVCYXubs5czJDJeoNcA+Y8=
+			qxo24+6TVr/yb3PAmI2SPVs0XpL7oDx1c7k+MaAb9BY=
 			</data>
 		</dict>
 		<key>Modules/BecomeDigitalV.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UzJbr6/WFtKyPoTj0KOxqz7aof/kQZFBQB3aywb1a1Y=
+			H1osUqpH/vKFAhdJjObTuvp+FyhNnc+aq4n+G14rSQU=
 			</data>
 		</dict>
 		<key>Modules/BecomeDigitalV.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IZIQsQjlgobyzOQG1c6cnIwTEizo8Dl/8MyYWGG+b0g=
+			eGLSgccUzDNSmimxksKC+tqfysUPp6AnjvUfk1QWr+4=
 			</data>
 		</dict>
 		<key>Modules/BecomeDigitalV.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UzJbr6/WFtKyPoTj0KOxqz7aof/kQZFBQB3aywb1a1Y=
+			H1osUqpH/vKFAhdJjObTuvp+FyhNnc+aq4n+G14rSQU=
 			</data>
 		</dict>
 		<key>Modules/BecomeDigitalV.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aBzBZ86MyS/O8V+vboXGYo9uEtEddCrfZavDF5UMS0g=
+			9vRHPW2fURk4Q46mt4dUQNyTxvV4Xvg1/xRivJuPlaA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

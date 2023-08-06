@@ -3407,7 +3407,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(isFirstTransaction:enableRecognitionModeFilter:token:contractId:userId:documentNumber:isoAlpha2CountryCode:type:imgDataFullFront:imgDataCroppetBack:barcodeResultData:customLocalizationFileName:captureType:)",
+            "printedName": "init(isFirstTransaction:enableRecognitionModeFilter:token:contractId:userId:documentNumber:isoAlpha2CountryCode:type:imgDataFullFront:imgDataCroppetBack:barcodeResultData:customLocalizationFileName:captureType:showCaptureConfirmationPage:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3502,11 +3502,18 @@
                 "printedName": "BecomeDigitalV.BDIVConfig.DocumentType",
                 "hasDefaultArg": true,
                 "usr": "s:14BecomeDigitalV10BDIVConfigV12DocumentTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14BecomeDigitalV10BDIVConfigV18isFirstTransaction27enableRecognitionModeFilter5token10contractId04userM014documentNumber20isoAlpha2CountryCode4type16imgDataFullFront0vW11CroppetBack013barcodeResultW026customLocalizationFileName11captureTypeACSb_SbS5SSi10Foundation0W0VASS2SAC12DocumentTypeOtcfc",
-            "mangledName": "$s14BecomeDigitalV10BDIVConfigV18isFirstTransaction27enableRecognitionModeFilter5token10contractId04userM014documentNumber20isoAlpha2CountryCode4type16imgDataFullFront0vW11CroppetBack013barcodeResultW026customLocalizationFileName11captureTypeACSb_SbS5SSi10Foundation0W0VASS2SAC12DocumentTypeOtcfc",
+            "usr": "s:14BecomeDigitalV10BDIVConfigV18isFirstTransaction27enableRecognitionModeFilter5token10contractId04userM014documentNumber20isoAlpha2CountryCode4type16imgDataFullFront0vW11CroppetBack013barcodeResultW026customLocalizationFileName11captureType27showCaptureConfirmationPageACSb_SbS5SSi10Foundation0W0VATS2SAC12DocumentTypeOSbtcfc",
+            "mangledName": "$s14BecomeDigitalV10BDIVConfigV18isFirstTransaction27enableRecognitionModeFilter5token10contractId04userM014documentNumber20isoAlpha2CountryCode4type16imgDataFullFront0vW11CroppetBack013barcodeResultW026customLocalizationFileName11captureType27showCaptureConfirmationPageACSb_SbS5SSi10Foundation0W0VATS2SAC12DocumentTypeOSbtcfc",
             "moduleName": "BecomeDigitalV",
             "declAttributes": [
               "AccessControl",
@@ -4141,6 +4148,51 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "showCaptureConfirmationPage",
+            "printedName": "showCaptureConfirmationPage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14BecomeDigitalV10BDIVConfigV27showCaptureConfirmationPageSbvp",
+            "mangledName": "$s14BecomeDigitalV10BDIVConfigV27showCaptureConfirmationPageSbvp",
+            "moduleName": "BecomeDigitalV",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14BecomeDigitalV10BDIVConfigV27showCaptureConfirmationPageSbvg",
+                "mangledName": "$s14BecomeDigitalV10BDIVConfigV27showCaptureConfirmationPageSbvg",
+                "moduleName": "BecomeDigitalV",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "TypeDecl",
             "name": "DocumentType",
             "printedName": "DocumentType",
@@ -4184,8 +4236,8 @@
               },
               {
                 "kind": "Var",
-                "name": "alienId",
-                "printedName": "alienId",
+                "name": "oldPeruvianAlienId",
+                "printedName": "oldPeruvianAlienId",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -4215,8 +4267,8 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:14BecomeDigitalV10BDIVConfigV12DocumentTypeO7alienIdyA2EmF",
-                "mangledName": "$s14BecomeDigitalV10BDIVConfigV12DocumentTypeO7alienIdyA2EmF",
+                "usr": "s:14BecomeDigitalV10BDIVConfigV12DocumentTypeO18oldPeruvianAlienIdyA2EmF",
+                "mangledName": "$s14BecomeDigitalV10BDIVConfigV12DocumentTypeO18oldPeruvianAlienIdyA2EmF",
                 "moduleName": "BecomeDigitalV"
               },
               {
@@ -6034,6 +6086,13 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Objets\/BDIVConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2187,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/IntroCapture\/IntroDocumentCaptureViewController.swift",
       "kind": "StringLiteral",
       "offset": 303,
@@ -6610,35 +6669,42 @@
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/Camera\/CameraViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 26214,
+      "offset": 26763,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/Camera\/CameraViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26955,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/Camera\/CameraViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 26834,
+      "offset": 27864,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/Camera\/CameraViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 27395,
+      "offset": 28425,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/Camera\/CameraViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 27403,
+      "offset": 28433,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Views\/Camera\/CameraViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 27532,
+      "offset": 28562,
       "length": 5,
       "value": "false"
     },
@@ -6743,224 +6809,224 @@
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "BooleanLiteral",
-      "offset": 1664,
+      "offset": 1675,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "BooleanLiteral",
-      "offset": 1813,
+      "offset": 1824,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "BooleanLiteral",
-      "offset": 2231,
+      "offset": 2242,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "StringLiteral",
-      "offset": 2427,
+      "offset": 2438,
       "length": 12,
       "value": "\"Dictionary\""
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "StringLiteral",
-      "offset": 2449,
+      "offset": 2460,
       "length": 13,
       "value": "\"stringsdict\""
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "StringLiteral",
-      "offset": 2548,
+      "offset": 2559,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "StringLiteral",
-      "offset": 2590,
+      "offset": 2601,
       "length": 23,
       "value": "\"text_msn_error_config\""
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "StringLiteral",
-      "offset": 2934,
+      "offset": 2945,
       "length": 12,
       "value": "\"Dictionary\""
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "StringLiteral",
-      "offset": 2956,
+      "offset": 2967,
       "length": 13,
       "value": "\"stringsdict\""
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "StringLiteral",
-      "offset": 3039,
+      "offset": 3050,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "StringLiteral",
-      "offset": 3223,
+      "offset": 3234,
       "length": 21,
       "value": "\"navigator.userAgent\""
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "StringLiteral",
-      "offset": 3459,
+      "offset": 3470,
       "length": 30,
       "value": "\"text_load_info_transaction_2\""
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "StringLiteral",
-      "offset": 3679,
+      "offset": 3690,
       "length": 30,
       "value": "\"failed to get the user agent\""
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "IntegerLiteral",
-      "offset": 4465,
+      "offset": 4476,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "StringLiteral",
-      "offset": 4539,
+      "offset": 4550,
       "length": 4,
       "value": "\"CO\""
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "StringLiteral",
-      "offset": 4594,
+      "offset": 4605,
       "length": 28,
       "value": "\"download_registry_progress\""
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "BooleanLiteral",
-      "offset": 4913,
+      "offset": 4924,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "BooleanLiteral",
-      "offset": 5600,
+      "offset": 5611,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "StringLiteral",
-      "offset": 5701,
+      "offset": 5712,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "StringLiteral",
-      "offset": 5732,
+      "offset": 5743,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "BooleanLiteral",
-      "offset": 6083,
+      "offset": 6094,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "StringLiteral",
-      "offset": 6194,
+      "offset": 6205,
       "length": 24,
       "value": "\"error_contractid_empty\""
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "BooleanLiteral",
-      "offset": 6255,
+      "offset": 6266,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "StringLiteral",
-      "offset": 6368,
+      "offset": 6379,
       "length": 29,
       "value": "\"error_vallidationtype_empty\""
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "BooleanLiteral",
-      "offset": 6434,
+      "offset": 6445,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "StringLiteral",
-      "offset": 6548,
+      "offset": 6559,
       "length": 19,
       "value": "\"error_userid_emty\""
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "BooleanLiteral",
-      "offset": 6604,
+      "offset": 6615,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "IntegerLiteral",
-      "offset": 6698,
+      "offset": 6709,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "StringLiteral",
-      "offset": 6769,
+      "offset": 6780,
       "length": 18,
       "value": "\"error_type_empty\""
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "BooleanLiteral",
-      "offset": 6828,
+      "offset": 6839,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "StringLiteral",
-      "offset": 6964,
+      "offset": 6975,
       "length": 21,
       "value": "\"error_country_empty\""
     },
     {
       "filePath": "\/Users\/nelsonpena\/Git\/iOS_develop_become\/BecomeDigitalIdentityVerificationMicroBlinkMDR\/BecomeDigitalV\/BecomeDigitalV\/Callback\/BDIVCallBack.swift",
       "kind": "BooleanLiteral",
-      "offset": 7026,
+      "offset": 7037,
       "length": 5,
       "value": "false"
     },

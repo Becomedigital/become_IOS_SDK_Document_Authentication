@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BecomeDigitalV
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
@@ -71,7 +71,7 @@ public struct ResponseIV {
   public var IsFirstTransaction: Swift.Bool
 }
 public struct BDIVConfig {
-  public init(isFirstTransaction: Swift.Bool = true, enableRecognitionModeFilter: Swift.Bool = false, token: Swift.String, contractId: Swift.String, userId: Swift.String, documentNumber: Swift.String = "", isoAlpha2CountryCode: Swift.String = "", type: Swift.Int = 0, imgDataFullFront: Foundation.Data = Data(), imgDataCroppetBack: Foundation.Data = Data(), barcodeResultData: Swift.String = "", customLocalizationFileName: Swift.String = "", captureType: BecomeDigitalV.BDIVConfig.DocumentType = .nationalId)
+  public init(isFirstTransaction: Swift.Bool = true, enableRecognitionModeFilter: Swift.Bool = false, token: Swift.String, contractId: Swift.String, userId: Swift.String, documentNumber: Swift.String = "", isoAlpha2CountryCode: Swift.String = "", type: Swift.Int = 0, imgDataFullFront: Foundation.Data = Data(), imgDataCroppetBack: Foundation.Data = Data(), barcodeResultData: Swift.String = "", customLocalizationFileName: Swift.String = "", captureType: BecomeDigitalV.BDIVConfig.DocumentType = .nationalId, showCaptureConfirmationPage: Swift.Bool = false)
   public let isFirstTransaction: Swift.Bool
   public let enableRecognitionModeFilter: Swift.Bool
   public var token: Swift.String
@@ -85,9 +85,10 @@ public struct BDIVConfig {
   public let barcodeResultData: Swift.String
   public let customLocalizationFileName: Swift.String
   public let captureType: BecomeDigitalV.BDIVConfig.DocumentType
+  public let showCaptureConfirmationPage: Swift.Bool
   public enum DocumentType {
     case nationalId
-    case alienId
+    case oldPeruvianAlienId
     case passport
     public static func == (a: BecomeDigitalV.BDIVConfig.DocumentType, b: BecomeDigitalV.BDIVConfig.DocumentType) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
