@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		dJQXC7mpZ/NxfcKyGnpDeve4brs=
+		AksSPdWzW5r/AuuXf+heNf8WDqk=
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		t2g/4+OATLz0pPyYR/KXv4vVQWw=
+		XLb8Dgzs2VQY/FY2FSYSGYzS0ug=
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		dJQXC7mpZ/NxfcKyGnpDeve4brs=
+		AksSPdWzW5r/AuuXf+heNf8WDqk=
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		2oFPNNp5hdNB7j+TMcfB9x2dF0w=
+		8tMZsusDHGayp7vrkyRxsigHXmc=
 		</data>
 		<key>Modules/BecomeDigitalV.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -179,7 +179,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qxo24+6TVr/yb3PAmI2SPVs0XpL7oDx1c7k+MaAb9BY=
+			YCMtnyNF9EZ9Vfoff/4Isgw20dQcxP8NI0ef9BtQGH4=
 			</data>
 		</dict>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -193,7 +193,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TBEhbg4Nr7MeIkIC3uHZTuQUJr8V2eOrg2qv7bkdJGQ=
+			yMi6xfAgm5Ez75WTgxeQqojYeot6GW7fL7SndqKNlYM=
 			</data>
 		</dict>
 		<key>Modules/BecomeDigitalV.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
@@ -214,7 +214,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qxo24+6TVr/yb3PAmI2SPVs0XpL7oDx1c7k+MaAb9BY=
+			YCMtnyNF9EZ9Vfoff/4Isgw20dQcxP8NI0ef9BtQGH4=
 			</data>
 		</dict>
 		<key>Modules/BecomeDigitalV.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -228,7 +228,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eGLSgccUzDNSmimxksKC+tqfysUPp6AnjvUfk1QWr+4=
+			PG991UFTvOlCvCKQSyVu5vozSBg5wEZPn11D4WQ0SC4=
 			</data>
 		</dict>
 		<key>Modules/BecomeDigitalV.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
