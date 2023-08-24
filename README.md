@@ -52,8 +52,8 @@ La SDK requiere que dentro de las configuraciones `info.plis`, se encuentre una 
                                               contractId:  "your_contract_id",
                                               userId: userID,
                                               customLocalizationFileName: "localize_test",
-                                              captureType: .oldPeruvianAlienId, // Tipo de documento a capturar
-                                              showCaptureConfirmationPage: true)) // Define si se muestra o no la confirmación de captura
+                                              captureType: .oldPeruvianAlienId, // Type of document to capture
+                                              showCaptureConfirmationPage: true)) // Defines if the capture confirmation is displayed or not
                                               
                BDIVCallBack.sharedInstance.register(bdivConfig: bdivConfig)
        }
