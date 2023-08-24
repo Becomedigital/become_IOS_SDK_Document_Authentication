@@ -28,7 +28,17 @@ La SDK requiere que dentro de las configuraciones `info.plis`, se encuentre una 
         import  BecomeDigitalV
 
 
-**2. En el método `startSDKAction ()` de su `ViewController` de aplicación, inicialice Become para la captura de imágenes, se debe asignar el `ItFirstTransaction` como True, puedes utilizar el siguiente fragmento de código:**
+**2. En el método `startSDKAction ()` de su `ViewController` de aplicación, inicialice Become para la captura de imágenes, se debe asignar el `ItFirstTransaction` como True.**
+
+#### tipos de documento
+
+    public enum DocumentType {
+        case nationalId
+        case oldPeruvianAlienId
+        case passport
+    }
+
+**puedes utilizar el siguiente fragmento de código:**
  
       @IBAction func startSDKAction(_ sender: Any) {
                let dateFormatter = DateFormatter()
@@ -41,7 +51,9 @@ La SDK requiere que dentro de las configuraciones `info.plis`, se encuentre una 
                                               token:"your_bearer_token",
                                               contractId:  "your_contract_id",
                                               userId: userID,
-                                              customLocalizationFileName: "localize_test")
+                                              customLocalizationFileName: "localize_test",
+                                              captureType: .oldPeruvianAlienId, // Tipo de documento a capturar
+                                              showCaptureConfirmationPage: true)) // Define si se muestra o no la confirmación de captura
                                               
                BDIVCallBack.sharedInstance.register(bdivConfig: bdivConfig)
        }
